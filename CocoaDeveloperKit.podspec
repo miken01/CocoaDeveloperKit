@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.source_files  = "**/*.{h,m}"
   s.requires_arc = true
   s.ios.deployment_target = '7.0'
-  s.public_header_files = 'CocoaDeveloperKit/*.h'
-  s.source_files = 'CocoaDeveloperKit/CocoaDeveloperKit.h'
+  s.public_header_files = "**/*.{h}"
+  s.source_files = "**/*.{h,m}"
   s.ios.frameworks = 'Security', 'CoreData', 'UIKit', 'Foundation'
 end
