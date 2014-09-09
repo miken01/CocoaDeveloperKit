@@ -85,7 +85,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1FE7F8FC19BF8F7800636640 /* PBXContainerItemProxy */ = {
+		1FB6309F19BF963E005840DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1FE7F8DE19BF8F7800636640 /* Project object */;
 			proxyType = 1;
@@ -482,7 +482,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1FE7F8FD19BF8F7800636640 /* PBXTargetDependency */,
+				1FB630A019BF963E005840DD /* PBXTargetDependency */,
 			);
 			name = CocoaDeveloperKitTests;
 			productName = CocoaDeveloperKitTests;
@@ -590,10 +590,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1FE7F8FD19BF8F7800636640 /* PBXTargetDependency */ = {
+		1FB630A019BF963E005840DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1FE7F8E519BF8F7800636640 /* CocoaDeveloperKit */;
-			targetProxy = 1FE7F8FC19BF8F7800636640 /* PBXContainerItemProxy */;
+			targetProxy = 1FB6309F19BF963E005840DD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -682,8 +682,8 @@
 			buildSettings = {
 				DSTROOT = /tmp/CocoaDeveloperKit.dst;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SRCROOT)\"",
 					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks/**",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CocoaDeveloperKit/CocoaDeveloperKit-Prefix.pch";
@@ -699,8 +699,8 @@
 			buildSettings = {
 				DSTROOT = /tmp/CocoaDeveloperKit.dst;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SRCROOT)\"",
 					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks/**",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CocoaDeveloperKit/CocoaDeveloperKit-Prefix.pch";
@@ -715,15 +715,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks/**",
 					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CocoaDeveloperKit/CocoaDeveloperKit-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				INFOPLIST_FILE = "CocoaDeveloperKitTests/CocoaDeveloperKitTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -735,12 +738,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks/**",
 					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CocoaDeveloperKit/CocoaDeveloperKit-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
 				INFOPLIST_FILE = "CocoaDeveloperKitTests/CocoaDeveloperKitTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;

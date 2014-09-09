@@ -24,5 +24,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
   s.public_header_files = "**/*.{h}"
   s.source_files = "**/*.{h,m}"
-  s.ios.frameworks = 'Security', 'CoreData', 'UIKit', 'Foundation'
+  s.ios.frameworks = 'XCTest', 'SystemConfiguration', 'Security', 'CoreData', 'UIKit', 'Foundation'
 end
