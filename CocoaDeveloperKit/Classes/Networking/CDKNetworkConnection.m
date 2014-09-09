@@ -205,7 +205,7 @@
     if([resp isKindOfClass:[NSHTTPURLResponse class]])
     {
         response = (NSHTTPURLResponse *)resp;
-        NSLog(@"[CDKNetworkConnection][performConnectionWithCompletion] - Status Code %ld", response.statusCode);
+        NSLog(@"[CDKNetworkConnection][performConnectionWithCompletion] - Status Code %ld", (long)response.statusCode);
     }
     
     // reset the data container
@@ -219,7 +219,7 @@
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection
 {
-    NSLog(@"[CDKNetworkConnection][performConnectionWithCompletion] - Connection did complete with %ld byte(s) returned", returnData.length);
+    NSLog(@"[CDKNetworkConnection][performConnectionWithCompletion] - Connection did complete with %ld byte(s) returned", (unsigned long)returnData.length);
     
     switch (_serializationType)
     {

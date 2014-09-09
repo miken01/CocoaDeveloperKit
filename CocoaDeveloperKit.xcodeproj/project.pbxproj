@@ -7,466 +7,460 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F44351219BF4D090065C568 /* CocoaDeveloperKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44351119BF4D090065C568 /* CocoaDeveloperKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F44351C19BF4D090065C568 /* CocoaDeveloperKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44351B19BF4D090065C568 /* CocoaDeveloperKitTests.m */; };
-		1F44369E19BF4E170065C568 /* CDKBaseManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44366519BF4E170065C568 /* CDKBaseManagedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F44369F19BF4E170065C568 /* CDKBaseManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44366619BF4E170065C568 /* CDKBaseManagedObject.m */; };
-		1F4436A019BF4E170065C568 /* CDKBaseManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44366619BF4E170065C568 /* CDKBaseManagedObject.m */; };
-		1F4436A119BF4E170065C568 /* CDKThreadContextRef.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44366819BF4E170065C568 /* CDKThreadContextRef.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F4436A219BF4E170065C568 /* CDKThreadContextRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44366919BF4E170065C568 /* CDKThreadContextRef.m */; };
-		1F4436A319BF4E170065C568 /* CDKThreadContextRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44366919BF4E170065C568 /* CDKThreadContextRef.m */; };
-		1F4436A419BF4E170065C568 /* CDKCoreDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44366A19BF4E170065C568 /* CDKCoreDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F4436A519BF4E170065C568 /* CDKCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44366B19BF4E170065C568 /* CDKCoreDataManager.m */; };
-		1F4436A619BF4E170065C568 /* CDKCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44366B19BF4E170065C568 /* CDKCoreDataManager.m */; };
-		1F4436A719BF4E170065C568 /* CDKCoreDataOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44366D19BF4E170065C568 /* CDKCoreDataOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F4436A819BF4E170065C568 /* CDKCoreDataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44366E19BF4E170065C568 /* CDKCoreDataOperation.m */; };
-		1F4436A919BF4E170065C568 /* CDKCoreDataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44366E19BF4E170065C568 /* CDKCoreDataOperation.m */; };
-		1F4436AA19BF4E170065C568 /* CDKCoreDataUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44367019BF4E170065C568 /* CDKCoreDataUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F4436AB19BF4E170065C568 /* CDKCoreDataUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44367119BF4E170065C568 /* CDKCoreDataUtilities.m */; };
-		1F4436AC19BF4E170065C568 /* CDKCoreDataUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44367119BF4E170065C568 /* CDKCoreDataUtilities.m */; };
-		1F4436AD19BF4E170065C568 /* CDKObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44367319BF4E170065C568 /* CDKObjectMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F4436AE19BF4E170065C568 /* CDKObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44367419BF4E170065C568 /* CDKObjectMapping.m */; };
-		1F4436AF19BF4E170065C568 /* CDKObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44367419BF4E170065C568 /* CDKObjectMapping.m */; };
-		1F4436B019BF4E170065C568 /* CDKObjectMappingAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44367519BF4E170065C568 /* CDKObjectMappingAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F4436B119BF4E170065C568 /* CDKObjectMappingAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44367619BF4E170065C568 /* CDKObjectMappingAttribute.m */; };
-		1F4436B219BF4E170065C568 /* CDKObjectMappingAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44367619BF4E170065C568 /* CDKObjectMappingAttribute.m */; };
-		1F4436B319BF4E170065C568 /* CDKObjectMappingRelationship.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44367719BF4E170065C568 /* CDKObjectMappingRelationship.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F4436B419BF4E170065C568 /* CDKObjectMappingRelationship.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44367819BF4E170065C568 /* CDKObjectMappingRelationship.m */; };
-		1F4436B519BF4E170065C568 /* CDKObjectMappingRelationship.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44367819BF4E170065C568 /* CDKObjectMappingRelationship.m */; };
-		1F4436B719BF4E170065C568 /* CDKLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44367B19BF4E170065C568 /* CDKLogger.m */; };
-		1F4436B819BF4E170065C568 /* CDKLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44367B19BF4E170065C568 /* CDKLogger.m */; };
-		1F4436B919BF4E170065C568 /* CDKLoggerEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44367C19BF4E170065C568 /* CDKLoggerEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F4436BA19BF4E170065C568 /* CDKLoggerEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44367D19BF4E170065C568 /* CDKLoggerEvent.m */; };
-		1F4436BB19BF4E170065C568 /* CDKLoggerEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44367D19BF4E170065C568 /* CDKLoggerEvent.m */; };
-		1F4436BC19BF4E170065C568 /* CDKLoggerScreenView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44367E19BF4E170065C568 /* CDKLoggerScreenView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F4436BD19BF4E170065C568 /* CDKLoggerScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44367F19BF4E170065C568 /* CDKLoggerScreenView.m */; };
-		1F4436BE19BF4E170065C568 /* CDKLoggerScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44367F19BF4E170065C568 /* CDKLoggerScreenView.m */; };
-		1F4436BF19BF4E170065C568 /* NSURL+CDKNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44368219BF4E170065C568 /* NSURL+CDKNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F4436C019BF4E170065C568 /* NSURL+CDKNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44368319BF4E170065C568 /* NSURL+CDKNetwork.m */; };
-		1F4436C119BF4E170065C568 /* NSURL+CDKNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44368319BF4E170065C568 /* NSURL+CDKNetwork.m */; };
-		1F4436C219BF4E170065C568 /* CDKNetworkConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44368419BF4E170065C568 /* CDKNetworkConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F4436C319BF4E170065C568 /* CDKNetworkConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44368519BF4E170065C568 /* CDKNetworkConnection.m */; };
-		1F4436C419BF4E170065C568 /* CDKNetworkConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44368519BF4E170065C568 /* CDKNetworkConnection.m */; };
-		1F4436C519BF4E170065C568 /* CDKNetworkGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44368619BF4E170065C568 /* CDKNetworkGlobals.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F4436C619BF4E170065C568 /* CDKNetworkHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44368819BF4E170065C568 /* CDKNetworkHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F4436C719BF4E170065C568 /* CDKNetworkHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44368919BF4E170065C568 /* CDKNetworkHeader.m */; };
-		1F4436C819BF4E170065C568 /* CDKNetworkHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44368919BF4E170065C568 /* CDKNetworkHeader.m */; };
-		1F4436C919BF4E170065C568 /* CDKNetworkParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44368A19BF4E170065C568 /* CDKNetworkParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F4436CA19BF4E170065C568 /* CDKNetworkParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44368B19BF4E170065C568 /* CDKNetworkParameter.m */; };
-		1F4436CB19BF4E170065C568 /* CDKNetworkParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44368B19BF4E170065C568 /* CDKNetworkParameter.m */; };
-		1F4436CC19BF4E170065C568 /* CDKNetworkResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44368C19BF4E170065C568 /* CDKNetworkResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F4436CD19BF4E170065C568 /* CDKNetworkResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44368D19BF4E170065C568 /* CDKNetworkResponse.m */; };
-		1F4436CE19BF4E170065C568 /* CDKNetworkResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44368D19BF4E170065C568 /* CDKNetworkResponse.m */; };
-		1F4436CF19BF4E170065C568 /* CDKActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44369119BF4E170065C568 /* CDKActivityIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F4436D019BF4E170065C568 /* CDKActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44369219BF4E170065C568 /* CDKActivityIndicatorView.m */; };
-		1F4436D119BF4E170065C568 /* CDKActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44369219BF4E170065C568 /* CDKActivityIndicatorView.m */; };
-		1F4436D219BF4E170065C568 /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44369419BF4E170065C568 /* Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F4436D319BF4E170065C568 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44369519BF4E170065C568 /* Base64.m */; };
-		1F4436D419BF4E170065C568 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44369519BF4E170065C568 /* Base64.m */; };
-		1F4436D519BF4E170065C568 /* NSDataAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44369619BF4E170065C568 /* NSDataAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F4436D619BF4E170065C568 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44369719BF4E170065C568 /* NSDataAdditions.m */; };
-		1F4436D719BF4E170065C568 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44369719BF4E170065C568 /* NSDataAdditions.m */; };
-		1F4436D819BF4E170065C568 /* NSDate+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44369819BF4E170065C568 /* NSDate+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F4436D919BF4E170065C568 /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44369919BF4E170065C568 /* NSDate+Additions.m */; };
-		1F4436DA19BF4E170065C568 /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44369919BF4E170065C568 /* NSDate+Additions.m */; };
-		1F4436DB19BF4E170065C568 /* NSError+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44369A19BF4E170065C568 /* NSError+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F4436DC19BF4E170065C568 /* NSError+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44369B19BF4E170065C568 /* NSError+Additions.m */; };
-		1F4436DD19BF4E170065C568 /* NSError+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44369B19BF4E170065C568 /* NSError+Additions.m */; };
-		1F4436DE19BF4E170065C568 /* PropertyUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44369C19BF4E170065C568 /* PropertyUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F4436DF19BF4E170065C568 /* PropertyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44369D19BF4E170065C568 /* PropertyUtilities.m */; };
-		1F4436E019BF4E170065C568 /* PropertyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44369D19BF4E170065C568 /* PropertyUtilities.m */; };
-		1F4436E219BF4E400065C568 /* CDKLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4436E119BF4E400065C568 /* CDKLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFA41F419BF56F700E29337 /* CocoaDeveloperKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44351119BF4D090065C568 /* CocoaDeveloperKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFA41F519BF56F700E29337 /* CDKBaseManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44366519BF4E170065C568 /* CDKBaseManagedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFA41F619BF56F700E29337 /* CDKThreadContextRef.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44366819BF4E170065C568 /* CDKThreadContextRef.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFA41F719BF56F700E29337 /* CDKCoreDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44366A19BF4E170065C568 /* CDKCoreDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFA41F819BF56F700E29337 /* CDKCoreDataOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44366D19BF4E170065C568 /* CDKCoreDataOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFA41F919BF56F700E29337 /* CDKCoreDataUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44367019BF4E170065C568 /* CDKCoreDataUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFA41FA19BF56F700E29337 /* CDKObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44367319BF4E170065C568 /* CDKObjectMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFA41FB19BF56F700E29337 /* CDKObjectMappingAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44367519BF4E170065C568 /* CDKObjectMappingAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFA41FC19BF56F700E29337 /* CDKObjectMappingRelationship.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44367719BF4E170065C568 /* CDKObjectMappingRelationship.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFA41FD19BF56F700E29337 /* CDKLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4436E119BF4E400065C568 /* CDKLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFA41FE19BF56F700E29337 /* CDKLoggerEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44367C19BF4E170065C568 /* CDKLoggerEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFA41FF19BF56F700E29337 /* CDKLoggerScreenView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44367E19BF4E170065C568 /* CDKLoggerScreenView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFA420019BF56F700E29337 /* NSURL+CDKNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44368219BF4E170065C568 /* NSURL+CDKNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFA420119BF56F700E29337 /* CDKNetworkConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44368419BF4E170065C568 /* CDKNetworkConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFA420219BF56F700E29337 /* CDKNetworkGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44368619BF4E170065C568 /* CDKNetworkGlobals.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFA420319BF56F700E29337 /* CDKNetworkHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44368819BF4E170065C568 /* CDKNetworkHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFA420419BF56F700E29337 /* CDKNetworkParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44368A19BF4E170065C568 /* CDKNetworkParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFA420519BF56F700E29337 /* CDKNetworkResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44368C19BF4E170065C568 /* CDKNetworkResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFA420619BF56F800E29337 /* CDKActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44369119BF4E170065C568 /* CDKActivityIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFA420719BF56F800E29337 /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44369419BF4E170065C568 /* Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFA420819BF56F800E29337 /* NSDataAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44369619BF4E170065C568 /* NSDataAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFA420919BF56F800E29337 /* NSDate+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44369819BF4E170065C568 /* NSDate+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFA420A19BF56F800E29337 /* NSError+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44369A19BF4E170065C568 /* NSError+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FFA420B19BF56F800E29337 /* PropertyUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F44369C19BF4E170065C568 /* PropertyUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0ADD9B19BF8FDD0004BF8C /* CDKBaseManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD6019BF8FDD0004BF8C /* CDKBaseManagedObject.m */; };
+		1F0ADD9C19BF8FDD0004BF8C /* CDKBaseManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD6019BF8FDD0004BF8C /* CDKBaseManagedObject.m */; };
+		1F0ADD9D19BF8FDD0004BF8C /* CDKCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD6219BF8FDD0004BF8C /* CDKCoreDataManager.m */; };
+		1F0ADD9E19BF8FDD0004BF8C /* CDKCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD6219BF8FDD0004BF8C /* CDKCoreDataManager.m */; };
+		1F0ADD9F19BF8FDD0004BF8C /* CDKThreadContextRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD6519BF8FDD0004BF8C /* CDKThreadContextRef.m */; };
+		1F0ADDA019BF8FDD0004BF8C /* CDKThreadContextRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD6519BF8FDD0004BF8C /* CDKThreadContextRef.m */; };
+		1F0ADDA119BF8FDD0004BF8C /* CDKCoreDataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD6819BF8FDD0004BF8C /* CDKCoreDataOperation.m */; };
+		1F0ADDA219BF8FDD0004BF8C /* CDKCoreDataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD6819BF8FDD0004BF8C /* CDKCoreDataOperation.m */; };
+		1F0ADDA319BF8FDD0004BF8C /* CDKCoreDataUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD6B19BF8FDD0004BF8C /* CDKCoreDataUtilities.m */; };
+		1F0ADDA419BF8FDD0004BF8C /* CDKCoreDataUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD6B19BF8FDD0004BF8C /* CDKCoreDataUtilities.m */; };
+		1F0ADDA519BF8FDD0004BF8C /* CDKObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD6E19BF8FDD0004BF8C /* CDKObjectMapping.m */; };
+		1F0ADDA619BF8FDD0004BF8C /* CDKObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD6E19BF8FDD0004BF8C /* CDKObjectMapping.m */; };
+		1F0ADDA719BF8FDD0004BF8C /* CDKObjectMappingAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD7019BF8FDD0004BF8C /* CDKObjectMappingAttribute.m */; };
+		1F0ADDA819BF8FDD0004BF8C /* CDKObjectMappingAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD7019BF8FDD0004BF8C /* CDKObjectMappingAttribute.m */; };
+		1F0ADDA919BF8FDD0004BF8C /* CDKObjectMappingRelationship.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD7219BF8FDD0004BF8C /* CDKObjectMappingRelationship.m */; };
+		1F0ADDAA19BF8FDD0004BF8C /* CDKObjectMappingRelationship.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD7219BF8FDD0004BF8C /* CDKObjectMappingRelationship.m */; };
+		1F0ADDAB19BF8FDD0004BF8C /* CDKLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD7519BF8FDD0004BF8C /* CDKLogger.m */; };
+		1F0ADDAC19BF8FDD0004BF8C /* CDKLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD7519BF8FDD0004BF8C /* CDKLogger.m */; };
+		1F0ADDAD19BF8FDD0004BF8C /* CDKLoggerEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD7719BF8FDD0004BF8C /* CDKLoggerEvent.m */; };
+		1F0ADDAE19BF8FDD0004BF8C /* CDKLoggerEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD7719BF8FDD0004BF8C /* CDKLoggerEvent.m */; };
+		1F0ADDAF19BF8FDD0004BF8C /* CDKLoggerScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD7919BF8FDD0004BF8C /* CDKLoggerScreenView.m */; };
+		1F0ADDB019BF8FDD0004BF8C /* CDKLoggerScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD7919BF8FDD0004BF8C /* CDKLoggerScreenView.m */; };
+		1F0ADDB119BF8FDD0004BF8C /* NSURL+CDKNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD7D19BF8FDD0004BF8C /* NSURL+CDKNetwork.m */; };
+		1F0ADDB219BF8FDD0004BF8C /* NSURL+CDKNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD7D19BF8FDD0004BF8C /* NSURL+CDKNetwork.m */; };
+		1F0ADDB319BF8FDD0004BF8C /* CDKNetworkConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD7F19BF8FDD0004BF8C /* CDKNetworkConnection.m */; };
+		1F0ADDB419BF8FDD0004BF8C /* CDKNetworkConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD7F19BF8FDD0004BF8C /* CDKNetworkConnection.m */; };
+		1F0ADDB519BF8FDD0004BF8C /* CDKNetworkHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD8319BF8FDD0004BF8C /* CDKNetworkHeader.m */; };
+		1F0ADDB619BF8FDD0004BF8C /* CDKNetworkHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD8319BF8FDD0004BF8C /* CDKNetworkHeader.m */; };
+		1F0ADDB719BF8FDD0004BF8C /* CDKNetworkParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD8519BF8FDD0004BF8C /* CDKNetworkParameter.m */; };
+		1F0ADDB819BF8FDD0004BF8C /* CDKNetworkParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD8519BF8FDD0004BF8C /* CDKNetworkParameter.m */; };
+		1F0ADDB919BF8FDD0004BF8C /* CDKNetworkResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD8719BF8FDD0004BF8C /* CDKNetworkResponse.m */; };
+		1F0ADDBA19BF8FDD0004BF8C /* CDKNetworkResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD8719BF8FDD0004BF8C /* CDKNetworkResponse.m */; };
+		1F0ADDBB19BF8FDD0004BF8C /* CDKActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD8C19BF8FDD0004BF8C /* CDKActivityIndicatorView.m */; };
+		1F0ADDBC19BF8FDD0004BF8C /* CDKActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD8C19BF8FDD0004BF8C /* CDKActivityIndicatorView.m */; };
+		1F0ADDBD19BF8FDD0004BF8C /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD8F19BF8FDD0004BF8C /* Base64.m */; };
+		1F0ADDBE19BF8FDD0004BF8C /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD8F19BF8FDD0004BF8C /* Base64.m */; };
+		1F0ADDBF19BF8FDD0004BF8C /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD9119BF8FDD0004BF8C /* NSDataAdditions.m */; };
+		1F0ADDC019BF8FDD0004BF8C /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD9119BF8FDD0004BF8C /* NSDataAdditions.m */; };
+		1F0ADDC119BF8FDD0004BF8C /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD9319BF8FDD0004BF8C /* NSDate+Additions.m */; };
+		1F0ADDC219BF8FDD0004BF8C /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD9319BF8FDD0004BF8C /* NSDate+Additions.m */; };
+		1F0ADDC319BF8FDD0004BF8C /* NSError+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD9519BF8FDD0004BF8C /* NSError+Additions.m */; };
+		1F0ADDC419BF8FDD0004BF8C /* NSError+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD9519BF8FDD0004BF8C /* NSError+Additions.m */; };
+		1F0ADDC519BF8FDD0004BF8C /* PropertyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD9719BF8FDD0004BF8C /* PropertyUtilities.m */; };
+		1F0ADDC619BF8FDD0004BF8C /* PropertyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD9719BF8FDD0004BF8C /* PropertyUtilities.m */; };
+		1F0ADDCE19BF90370004BF8C /* CocoaDeveloperKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ADD9919BF8FDD0004BF8C /* CocoaDeveloperKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0ADDCF19BF90370004BF8C /* CDKBaseManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ADD5F19BF8FDD0004BF8C /* CDKBaseManagedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0ADDD019BF90370004BF8C /* CDKCoreDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ADD6119BF8FDD0004BF8C /* CDKCoreDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0ADDD119BF90370004BF8C /* CDKThreadContextRef.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ADD6419BF8FDD0004BF8C /* CDKThreadContextRef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0ADDD219BF90370004BF8C /* CDKCoreDataOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ADD6719BF8FDD0004BF8C /* CDKCoreDataOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0ADDD319BF90370004BF8C /* CDKCoreDataUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ADD6A19BF8FDD0004BF8C /* CDKCoreDataUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0ADDD419BF90370004BF8C /* CDKObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ADD6D19BF8FDD0004BF8C /* CDKObjectMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0ADDD519BF90370004BF8C /* CDKObjectMappingAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ADD6F19BF8FDD0004BF8C /* CDKObjectMappingAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0ADDD619BF90370004BF8C /* CDKObjectMappingRelationship.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ADD7119BF8FDD0004BF8C /* CDKObjectMappingRelationship.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0ADDD719BF90370004BF8C /* CDKLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ADD7419BF8FDD0004BF8C /* CDKLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0ADDD819BF90370004BF8C /* CDKLoggerEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ADD7619BF8FDD0004BF8C /* CDKLoggerEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0ADDD919BF90370004BF8C /* CDKLoggerScreenView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ADD7819BF8FDD0004BF8C /* CDKLoggerScreenView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0ADDDA19BF90370004BF8C /* NSURL+CDKNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ADD7C19BF8FDD0004BF8C /* NSURL+CDKNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0ADDDB19BF90370004BF8C /* CDKNetworkConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ADD7E19BF8FDD0004BF8C /* CDKNetworkConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0ADDDC19BF90370004BF8C /* CDKNetworkGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ADD8019BF8FDD0004BF8C /* CDKNetworkGlobals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0ADDDD19BF90370004BF8C /* CDKNetworkHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ADD8219BF8FDD0004BF8C /* CDKNetworkHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0ADDDE19BF90370004BF8C /* CDKNetworkParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ADD8419BF8FDD0004BF8C /* CDKNetworkParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0ADDDF19BF90370004BF8C /* CDKNetworkResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ADD8619BF8FDD0004BF8C /* CDKNetworkResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0ADDE019BF90370004BF8C /* CDKActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ADD8B19BF8FDD0004BF8C /* CDKActivityIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0ADDE119BF90370004BF8C /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ADD8E19BF8FDD0004BF8C /* Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0ADDE219BF90370004BF8C /* NSDataAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ADD9019BF8FDD0004BF8C /* NSDataAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0ADDE319BF90370004BF8C /* NSDate+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ADD9219BF8FDD0004BF8C /* NSDate+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0ADDE419BF90370004BF8C /* NSError+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ADD9419BF8FDD0004BF8C /* NSError+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0ADDE519BF90370004BF8C /* PropertyUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0ADD9619BF8FDD0004BF8C /* PropertyUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FE7F8EA19BF8F7800636640 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE7F8E919BF8F7800636640 /* Foundation.framework */; };
+		1FE7F8F819BF8F7800636640 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE7F8F719BF8F7800636640 /* XCTest.framework */; };
+		1FE7F8F919BF8F7800636640 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE7F8E919BF8F7800636640 /* Foundation.framework */; };
+		1FE7F8FB19BF8F7800636640 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE7F8FA19BF8F7800636640 /* UIKit.framework */; };
+		1FE7F8FE19BF8F7800636640 /* libCocoaDeveloperKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE7F8E619BF8F7800636640 /* libCocoaDeveloperKit.a */; };
+		1FE7F90419BF8F7800636640 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FE7F90219BF8F7800636640 /* InfoPlist.strings */; };
+		1FE7F90619BF8F7800636640 /* CocoaDeveloperKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE7F90519BF8F7800636640 /* CocoaDeveloperKitTests.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXFileReference section */
-		1F44350C19BF4D090065C568 /* CocoaDeveloperKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaDeveloperKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F44351019BF4D090065C568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F44351119BF4D090065C568 /* CocoaDeveloperKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaDeveloperKit.h; sourceTree = "<group>"; };
-		1F44351719BF4D090065C568 /* CocoaDeveloperKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaDeveloperKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F44351A19BF4D090065C568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F44351B19BF4D090065C568 /* CocoaDeveloperKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaDeveloperKitTests.m; sourceTree = "<group>"; };
-		1F44366519BF4E170065C568 /* CDKBaseManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKBaseManagedObject.h; sourceTree = "<group>"; };
-		1F44366619BF4E170065C568 /* CDKBaseManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKBaseManagedObject.m; sourceTree = "<group>"; };
-		1F44366819BF4E170065C568 /* CDKThreadContextRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKThreadContextRef.h; sourceTree = "<group>"; };
-		1F44366919BF4E170065C568 /* CDKThreadContextRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKThreadContextRef.m; sourceTree = "<group>"; };
-		1F44366A19BF4E170065C568 /* CDKCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKCoreDataManager.h; sourceTree = "<group>"; };
-		1F44366B19BF4E170065C568 /* CDKCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKCoreDataManager.m; sourceTree = "<group>"; };
-		1F44366D19BF4E170065C568 /* CDKCoreDataOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKCoreDataOperation.h; sourceTree = "<group>"; };
-		1F44366E19BF4E170065C568 /* CDKCoreDataOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKCoreDataOperation.m; sourceTree = "<group>"; };
-		1F44367019BF4E170065C568 /* CDKCoreDataUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKCoreDataUtilities.h; sourceTree = "<group>"; };
-		1F44367119BF4E170065C568 /* CDKCoreDataUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKCoreDataUtilities.m; sourceTree = "<group>"; };
-		1F44367319BF4E170065C568 /* CDKObjectMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKObjectMapping.h; sourceTree = "<group>"; };
-		1F44367419BF4E170065C568 /* CDKObjectMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKObjectMapping.m; sourceTree = "<group>"; };
-		1F44367519BF4E170065C568 /* CDKObjectMappingAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKObjectMappingAttribute.h; sourceTree = "<group>"; };
-		1F44367619BF4E170065C568 /* CDKObjectMappingAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKObjectMappingAttribute.m; sourceTree = "<group>"; };
-		1F44367719BF4E170065C568 /* CDKObjectMappingRelationship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKObjectMappingRelationship.h; sourceTree = "<group>"; };
-		1F44367819BF4E170065C568 /* CDKObjectMappingRelationship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKObjectMappingRelationship.m; sourceTree = "<group>"; };
-		1F44367B19BF4E170065C568 /* CDKLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKLogger.m; sourceTree = "<group>"; };
-		1F44367C19BF4E170065C568 /* CDKLoggerEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKLoggerEvent.h; sourceTree = "<group>"; };
-		1F44367D19BF4E170065C568 /* CDKLoggerEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKLoggerEvent.m; sourceTree = "<group>"; };
-		1F44367E19BF4E170065C568 /* CDKLoggerScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKLoggerScreenView.h; sourceTree = "<group>"; };
-		1F44367F19BF4E170065C568 /* CDKLoggerScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKLoggerScreenView.m; sourceTree = "<group>"; };
-		1F44368219BF4E170065C568 /* NSURL+CDKNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+CDKNetwork.h"; sourceTree = "<group>"; };
-		1F44368319BF4E170065C568 /* NSURL+CDKNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+CDKNetwork.m"; sourceTree = "<group>"; };
-		1F44368419BF4E170065C568 /* CDKNetworkConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKNetworkConnection.h; sourceTree = "<group>"; };
-		1F44368519BF4E170065C568 /* CDKNetworkConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKNetworkConnection.m; sourceTree = "<group>"; };
-		1F44368619BF4E170065C568 /* CDKNetworkGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKNetworkGlobals.h; sourceTree = "<group>"; };
-		1F44368819BF4E170065C568 /* CDKNetworkHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKNetworkHeader.h; sourceTree = "<group>"; };
-		1F44368919BF4E170065C568 /* CDKNetworkHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKNetworkHeader.m; sourceTree = "<group>"; };
-		1F44368A19BF4E170065C568 /* CDKNetworkParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKNetworkParameter.h; sourceTree = "<group>"; };
-		1F44368B19BF4E170065C568 /* CDKNetworkParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKNetworkParameter.m; sourceTree = "<group>"; };
-		1F44368C19BF4E170065C568 /* CDKNetworkResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKNetworkResponse.h; sourceTree = "<group>"; };
-		1F44368D19BF4E170065C568 /* CDKNetworkResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKNetworkResponse.m; sourceTree = "<group>"; };
-		1F44369119BF4E170065C568 /* CDKActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKActivityIndicatorView.h; sourceTree = "<group>"; };
-		1F44369219BF4E170065C568 /* CDKActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKActivityIndicatorView.m; sourceTree = "<group>"; };
-		1F44369419BF4E170065C568 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
-		1F44369519BF4E170065C568 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
-		1F44369619BF4E170065C568 /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
-		1F44369719BF4E170065C568 /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
-		1F44369819BF4E170065C568 /* NSDate+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Additions.h"; sourceTree = "<group>"; };
-		1F44369919BF4E170065C568 /* NSDate+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Additions.m"; sourceTree = "<group>"; };
-		1F44369A19BF4E170065C568 /* NSError+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Additions.h"; sourceTree = "<group>"; };
-		1F44369B19BF4E170065C568 /* NSError+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Additions.m"; sourceTree = "<group>"; };
-		1F44369C19BF4E170065C568 /* PropertyUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyUtilities.h; sourceTree = "<group>"; };
-		1F44369D19BF4E170065C568 /* PropertyUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyUtilities.m; sourceTree = "<group>"; };
-		1F4436E119BF4E400065C568 /* CDKLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKLogger.h; sourceTree = "<group>"; };
-/* End PBXFileReference section */
+/* Begin PBXContainerItemProxy section */
+		1FE7F8FC19BF8F7800636640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FE7F8DE19BF8F7800636640 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FE7F8E519BF8F7800636640;
+			remoteInfo = CocoaDeveloperKit;
+		};
+/* End PBXContainerItemProxy section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		1F44350819BF4D090065C568 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
+/* Begin PBXCopyFilesBuildPhase section */
+		1FE7F8E419BF8F7800636640 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F44351419BF4D090065C568 /* Frameworks */ = {
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F0ADD5F19BF8FDD0004BF8C /* CDKBaseManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKBaseManagedObject.h; sourceTree = "<group>"; };
+		1F0ADD6019BF8FDD0004BF8C /* CDKBaseManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKBaseManagedObject.m; sourceTree = "<group>"; };
+		1F0ADD6119BF8FDD0004BF8C /* CDKCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKCoreDataManager.h; sourceTree = "<group>"; };
+		1F0ADD6219BF8FDD0004BF8C /* CDKCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKCoreDataManager.m; sourceTree = "<group>"; };
+		1F0ADD6419BF8FDD0004BF8C /* CDKThreadContextRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKThreadContextRef.h; sourceTree = "<group>"; };
+		1F0ADD6519BF8FDD0004BF8C /* CDKThreadContextRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKThreadContextRef.m; sourceTree = "<group>"; };
+		1F0ADD6719BF8FDD0004BF8C /* CDKCoreDataOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKCoreDataOperation.h; sourceTree = "<group>"; };
+		1F0ADD6819BF8FDD0004BF8C /* CDKCoreDataOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKCoreDataOperation.m; sourceTree = "<group>"; };
+		1F0ADD6A19BF8FDD0004BF8C /* CDKCoreDataUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKCoreDataUtilities.h; sourceTree = "<group>"; };
+		1F0ADD6B19BF8FDD0004BF8C /* CDKCoreDataUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKCoreDataUtilities.m; sourceTree = "<group>"; };
+		1F0ADD6D19BF8FDD0004BF8C /* CDKObjectMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKObjectMapping.h; sourceTree = "<group>"; };
+		1F0ADD6E19BF8FDD0004BF8C /* CDKObjectMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKObjectMapping.m; sourceTree = "<group>"; };
+		1F0ADD6F19BF8FDD0004BF8C /* CDKObjectMappingAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKObjectMappingAttribute.h; sourceTree = "<group>"; };
+		1F0ADD7019BF8FDD0004BF8C /* CDKObjectMappingAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKObjectMappingAttribute.m; sourceTree = "<group>"; };
+		1F0ADD7119BF8FDD0004BF8C /* CDKObjectMappingRelationship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKObjectMappingRelationship.h; sourceTree = "<group>"; };
+		1F0ADD7219BF8FDD0004BF8C /* CDKObjectMappingRelationship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKObjectMappingRelationship.m; sourceTree = "<group>"; };
+		1F0ADD7419BF8FDD0004BF8C /* CDKLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKLogger.h; sourceTree = "<group>"; };
+		1F0ADD7519BF8FDD0004BF8C /* CDKLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKLogger.m; sourceTree = "<group>"; };
+		1F0ADD7619BF8FDD0004BF8C /* CDKLoggerEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKLoggerEvent.h; sourceTree = "<group>"; };
+		1F0ADD7719BF8FDD0004BF8C /* CDKLoggerEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKLoggerEvent.m; sourceTree = "<group>"; };
+		1F0ADD7819BF8FDD0004BF8C /* CDKLoggerScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKLoggerScreenView.h; sourceTree = "<group>"; };
+		1F0ADD7919BF8FDD0004BF8C /* CDKLoggerScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKLoggerScreenView.m; sourceTree = "<group>"; };
+		1F0ADD7C19BF8FDD0004BF8C /* NSURL+CDKNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+CDKNetwork.h"; sourceTree = "<group>"; };
+		1F0ADD7D19BF8FDD0004BF8C /* NSURL+CDKNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+CDKNetwork.m"; sourceTree = "<group>"; };
+		1F0ADD7E19BF8FDD0004BF8C /* CDKNetworkConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKNetworkConnection.h; sourceTree = "<group>"; };
+		1F0ADD7F19BF8FDD0004BF8C /* CDKNetworkConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKNetworkConnection.m; sourceTree = "<group>"; };
+		1F0ADD8019BF8FDD0004BF8C /* CDKNetworkGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKNetworkGlobals.h; sourceTree = "<group>"; };
+		1F0ADD8219BF8FDD0004BF8C /* CDKNetworkHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKNetworkHeader.h; sourceTree = "<group>"; };
+		1F0ADD8319BF8FDD0004BF8C /* CDKNetworkHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKNetworkHeader.m; sourceTree = "<group>"; };
+		1F0ADD8419BF8FDD0004BF8C /* CDKNetworkParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKNetworkParameter.h; sourceTree = "<group>"; };
+		1F0ADD8519BF8FDD0004BF8C /* CDKNetworkParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKNetworkParameter.m; sourceTree = "<group>"; };
+		1F0ADD8619BF8FDD0004BF8C /* CDKNetworkResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKNetworkResponse.h; sourceTree = "<group>"; };
+		1F0ADD8719BF8FDD0004BF8C /* CDKNetworkResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKNetworkResponse.m; sourceTree = "<group>"; };
+		1F0ADD8B19BF8FDD0004BF8C /* CDKActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDKActivityIndicatorView.h; sourceTree = "<group>"; };
+		1F0ADD8C19BF8FDD0004BF8C /* CDKActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDKActivityIndicatorView.m; sourceTree = "<group>"; };
+		1F0ADD8E19BF8FDD0004BF8C /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		1F0ADD8F19BF8FDD0004BF8C /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		1F0ADD9019BF8FDD0004BF8C /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		1F0ADD9119BF8FDD0004BF8C /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		1F0ADD9219BF8FDD0004BF8C /* NSDate+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Additions.h"; sourceTree = "<group>"; };
+		1F0ADD9319BF8FDD0004BF8C /* NSDate+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Additions.m"; sourceTree = "<group>"; };
+		1F0ADD9419BF8FDD0004BF8C /* NSError+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Additions.h"; sourceTree = "<group>"; };
+		1F0ADD9519BF8FDD0004BF8C /* NSError+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Additions.m"; sourceTree = "<group>"; };
+		1F0ADD9619BF8FDD0004BF8C /* PropertyUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyUtilities.h; sourceTree = "<group>"; };
+		1F0ADD9719BF8FDD0004BF8C /* PropertyUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyUtilities.m; sourceTree = "<group>"; };
+		1F0ADD9819BF8FDD0004BF8C /* CocoaDeveloperKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CocoaDeveloperKit-Prefix.pch"; sourceTree = "<group>"; };
+		1F0ADD9919BF8FDD0004BF8C /* CocoaDeveloperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaDeveloperKit.h; sourceTree = "<group>"; };
+		1FE7F8E619BF8F7800636640 /* libCocoaDeveloperKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocoaDeveloperKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE7F8E919BF8F7800636640 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1FE7F8F619BF8F7800636640 /* CocoaDeveloperKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaDeveloperKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE7F8F719BF8F7800636640 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1FE7F8FA19BF8F7800636640 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1FE7F90119BF8F7800636640 /* CocoaDeveloperKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaDeveloperKitTests-Info.plist"; sourceTree = "<group>"; };
+		1FE7F90319BF8F7800636640 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1FE7F90519BF8F7800636640 /* CocoaDeveloperKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaDeveloperKitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FE7F8E319BF8F7800636640 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FE7F8EA19BF8F7800636640 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FE7F8F319BF8F7800636640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE7F8F819BF8F7800636640 /* XCTest.framework in Frameworks */,
+				1FE7F8FB19BF8F7800636640 /* UIKit.framework in Frameworks */,
+				1FE7F8F919BF8F7800636640 /* Foundation.framework in Frameworks */,
+				1FE7F8FE19BF8F7800636640 /* libCocoaDeveloperKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F44350219BF4D090065C568 = {
+		1F0ADD5B19BF8FDD0004BF8C /* CocoaDeveloperKit */ = {
 			isa = PBXGroup;
 			children = (
-				1F44350E19BF4D090065C568 /* CocoaDeveloperKit */,
-				1F44351819BF4D090065C568 /* CocoaDeveloperKitTests */,
-				1F44350D19BF4D090065C568 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		1F44350D19BF4D090065C568 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1F44350C19BF4D090065C568 /* CocoaDeveloperKit.framework */,
-				1F44351719BF4D090065C568 /* CocoaDeveloperKitTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1F44350E19BF4D090065C568 /* CocoaDeveloperKit */ = {
-			isa = PBXGroup;
-			children = (
-				1F44351119BF4D090065C568 /* CocoaDeveloperKit.h */,
-				1F44366219BF4E170065C568 /* Classes */,
-				1F44350F19BF4D090065C568 /* Supporting Files */,
+				1F0ADD9919BF8FDD0004BF8C /* CocoaDeveloperKit.h */,
+				1F0ADD5C19BF8FDD0004BF8C /* Classes */,
+				1F0ADDC919BF8FE80004BF8C /* Supporting Files */,
 			);
 			path = CocoaDeveloperKit;
 			sourceTree = "<group>";
 		};
-		1F44350F19BF4D090065C568 /* Supporting Files */ = {
+		1F0ADD5C19BF8FDD0004BF8C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1F44351019BF4D090065C568 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1F44351819BF4D090065C568 /* CocoaDeveloperKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				1F44351B19BF4D090065C568 /* CocoaDeveloperKitTests.m */,
-				1F44351919BF4D090065C568 /* Supporting Files */,
-			);
-			path = CocoaDeveloperKitTests;
-			sourceTree = "<group>";
-		};
-		1F44351919BF4D090065C568 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1F44351A19BF4D090065C568 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1F44366219BF4E170065C568 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				1F44366319BF4E170065C568 /* CoreDataManager */,
-				1F44367919BF4E170065C568 /* Logger */,
-				1F44368019BF4E170065C568 /* Networking */,
-				1F44368E19BF4E170065C568 /* UI */,
-				1F44369319BF4E170065C568 /* Utilities */,
+				1F0ADD5D19BF8FDD0004BF8C /* CoreDataManager */,
+				1F0ADD7319BF8FDD0004BF8C /* Logger */,
+				1F0ADD7A19BF8FDD0004BF8C /* Networking */,
+				1F0ADD8819BF8FDD0004BF8C /* UI */,
+				1F0ADD8D19BF8FDD0004BF8C /* Utilities */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		1F44366319BF4E170065C568 /* CoreDataManager */ = {
+		1F0ADD5D19BF8FDD0004BF8C /* CoreDataManager */ = {
 			isa = PBXGroup;
 			children = (
-				1F44366419BF4E170065C568 /* BaseManagedObject */,
-				1F44366719BF4E170065C568 /* ConcurrentContext */,
-				1F44366A19BF4E170065C568 /* CDKCoreDataManager.h */,
-				1F44366B19BF4E170065C568 /* CDKCoreDataManager.m */,
-				1F44366C19BF4E170065C568 /* CoreDataRequest */,
-				1F44366F19BF4E170065C568 /* CoreDataUtilities */,
-				1F44367219BF4E170065C568 /* ObjectMapping */,
+				1F0ADD5E19BF8FDD0004BF8C /* BaseManagedObject */,
+				1F0ADD6119BF8FDD0004BF8C /* CDKCoreDataManager.h */,
+				1F0ADD6219BF8FDD0004BF8C /* CDKCoreDataManager.m */,
+				1F0ADD6319BF8FDD0004BF8C /* ConcurrentContext */,
+				1F0ADD6619BF8FDD0004BF8C /* CoreDataRequest */,
+				1F0ADD6919BF8FDD0004BF8C /* CoreDataUtilities */,
+				1F0ADD6C19BF8FDD0004BF8C /* ObjectMapping */,
 			);
 			path = CoreDataManager;
 			sourceTree = "<group>";
 		};
-		1F44366419BF4E170065C568 /* BaseManagedObject */ = {
+		1F0ADD5E19BF8FDD0004BF8C /* BaseManagedObject */ = {
 			isa = PBXGroup;
 			children = (
-				1F44366519BF4E170065C568 /* CDKBaseManagedObject.h */,
-				1F44366619BF4E170065C568 /* CDKBaseManagedObject.m */,
+				1F0ADD5F19BF8FDD0004BF8C /* CDKBaseManagedObject.h */,
+				1F0ADD6019BF8FDD0004BF8C /* CDKBaseManagedObject.m */,
 			);
 			path = BaseManagedObject;
 			sourceTree = "<group>";
 		};
-		1F44366719BF4E170065C568 /* ConcurrentContext */ = {
+		1F0ADD6319BF8FDD0004BF8C /* ConcurrentContext */ = {
 			isa = PBXGroup;
 			children = (
-				1F44366819BF4E170065C568 /* CDKThreadContextRef.h */,
-				1F44366919BF4E170065C568 /* CDKThreadContextRef.m */,
+				1F0ADD6419BF8FDD0004BF8C /* CDKThreadContextRef.h */,
+				1F0ADD6519BF8FDD0004BF8C /* CDKThreadContextRef.m */,
 			);
 			path = ConcurrentContext;
 			sourceTree = "<group>";
 		};
-		1F44366C19BF4E170065C568 /* CoreDataRequest */ = {
+		1F0ADD6619BF8FDD0004BF8C /* CoreDataRequest */ = {
 			isa = PBXGroup;
 			children = (
-				1F44366D19BF4E170065C568 /* CDKCoreDataOperation.h */,
-				1F44366E19BF4E170065C568 /* CDKCoreDataOperation.m */,
+				1F0ADD6719BF8FDD0004BF8C /* CDKCoreDataOperation.h */,
+				1F0ADD6819BF8FDD0004BF8C /* CDKCoreDataOperation.m */,
 			);
 			path = CoreDataRequest;
 			sourceTree = "<group>";
 		};
-		1F44366F19BF4E170065C568 /* CoreDataUtilities */ = {
+		1F0ADD6919BF8FDD0004BF8C /* CoreDataUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				1F44367019BF4E170065C568 /* CDKCoreDataUtilities.h */,
-				1F44367119BF4E170065C568 /* CDKCoreDataUtilities.m */,
+				1F0ADD6A19BF8FDD0004BF8C /* CDKCoreDataUtilities.h */,
+				1F0ADD6B19BF8FDD0004BF8C /* CDKCoreDataUtilities.m */,
 			);
 			path = CoreDataUtilities;
 			sourceTree = "<group>";
 		};
-		1F44367219BF4E170065C568 /* ObjectMapping */ = {
+		1F0ADD6C19BF8FDD0004BF8C /* ObjectMapping */ = {
 			isa = PBXGroup;
 			children = (
-				1F44367319BF4E170065C568 /* CDKObjectMapping.h */,
-				1F44367419BF4E170065C568 /* CDKObjectMapping.m */,
-				1F44367519BF4E170065C568 /* CDKObjectMappingAttribute.h */,
-				1F44367619BF4E170065C568 /* CDKObjectMappingAttribute.m */,
-				1F44367719BF4E170065C568 /* CDKObjectMappingRelationship.h */,
-				1F44367819BF4E170065C568 /* CDKObjectMappingRelationship.m */,
+				1F0ADD6D19BF8FDD0004BF8C /* CDKObjectMapping.h */,
+				1F0ADD6E19BF8FDD0004BF8C /* CDKObjectMapping.m */,
+				1F0ADD6F19BF8FDD0004BF8C /* CDKObjectMappingAttribute.h */,
+				1F0ADD7019BF8FDD0004BF8C /* CDKObjectMappingAttribute.m */,
+				1F0ADD7119BF8FDD0004BF8C /* CDKObjectMappingRelationship.h */,
+				1F0ADD7219BF8FDD0004BF8C /* CDKObjectMappingRelationship.m */,
 			);
 			path = ObjectMapping;
 			sourceTree = "<group>";
 		};
-		1F44367919BF4E170065C568 /* Logger */ = {
+		1F0ADD7319BF8FDD0004BF8C /* Logger */ = {
 			isa = PBXGroup;
 			children = (
-				1F4436E119BF4E400065C568 /* CDKLogger.h */,
-				1F44367B19BF4E170065C568 /* CDKLogger.m */,
-				1F44367C19BF4E170065C568 /* CDKLoggerEvent.h */,
-				1F44367D19BF4E170065C568 /* CDKLoggerEvent.m */,
-				1F44367E19BF4E170065C568 /* CDKLoggerScreenView.h */,
-				1F44367F19BF4E170065C568 /* CDKLoggerScreenView.m */,
+				1F0ADD7419BF8FDD0004BF8C /* CDKLogger.h */,
+				1F0ADD7519BF8FDD0004BF8C /* CDKLogger.m */,
+				1F0ADD7619BF8FDD0004BF8C /* CDKLoggerEvent.h */,
+				1F0ADD7719BF8FDD0004BF8C /* CDKLoggerEvent.m */,
+				1F0ADD7819BF8FDD0004BF8C /* CDKLoggerScreenView.h */,
+				1F0ADD7919BF8FDD0004BF8C /* CDKLoggerScreenView.m */,
 			);
 			path = Logger;
 			sourceTree = "<group>";
 		};
-		1F44368019BF4E170065C568 /* Networking */ = {
+		1F0ADD7A19BF8FDD0004BF8C /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				1F44368119BF4E170065C568 /* Category */,
-				1F44368419BF4E170065C568 /* CDKNetworkConnection.h */,
-				1F44368519BF4E170065C568 /* CDKNetworkConnection.m */,
-				1F44368619BF4E170065C568 /* CDKNetworkGlobals.h */,
-				1F44368719BF4E170065C568 /* Model */,
+				1F0ADD7B19BF8FDD0004BF8C /* Category */,
+				1F0ADD7E19BF8FDD0004BF8C /* CDKNetworkConnection.h */,
+				1F0ADD7F19BF8FDD0004BF8C /* CDKNetworkConnection.m */,
+				1F0ADD8019BF8FDD0004BF8C /* CDKNetworkGlobals.h */,
+				1F0ADD8119BF8FDD0004BF8C /* Model */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
 		};
-		1F44368119BF4E170065C568 /* Category */ = {
+		1F0ADD7B19BF8FDD0004BF8C /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				1F44368219BF4E170065C568 /* NSURL+CDKNetwork.h */,
-				1F44368319BF4E170065C568 /* NSURL+CDKNetwork.m */,
+				1F0ADD7C19BF8FDD0004BF8C /* NSURL+CDKNetwork.h */,
+				1F0ADD7D19BF8FDD0004BF8C /* NSURL+CDKNetwork.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
 		};
-		1F44368719BF4E170065C568 /* Model */ = {
+		1F0ADD8119BF8FDD0004BF8C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1F44368819BF4E170065C568 /* CDKNetworkHeader.h */,
-				1F44368919BF4E170065C568 /* CDKNetworkHeader.m */,
-				1F44368A19BF4E170065C568 /* CDKNetworkParameter.h */,
-				1F44368B19BF4E170065C568 /* CDKNetworkParameter.m */,
-				1F44368C19BF4E170065C568 /* CDKNetworkResponse.h */,
-				1F44368D19BF4E170065C568 /* CDKNetworkResponse.m */,
+				1F0ADD8219BF8FDD0004BF8C /* CDKNetworkHeader.h */,
+				1F0ADD8319BF8FDD0004BF8C /* CDKNetworkHeader.m */,
+				1F0ADD8419BF8FDD0004BF8C /* CDKNetworkParameter.h */,
+				1F0ADD8519BF8FDD0004BF8C /* CDKNetworkParameter.m */,
+				1F0ADD8619BF8FDD0004BF8C /* CDKNetworkResponse.h */,
+				1F0ADD8719BF8FDD0004BF8C /* CDKNetworkResponse.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		1F44368E19BF4E170065C568 /* UI */ = {
+		1F0ADD8819BF8FDD0004BF8C /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				1F44368F19BF4E170065C568 /* View */,
+				1F0ADD8919BF8FDD0004BF8C /* View */,
 			);
 			path = UI;
 			sourceTree = "<group>";
 		};
-		1F44368F19BF4E170065C568 /* View */ = {
+		1F0ADD8919BF8FDD0004BF8C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1F44369019BF4E170065C568 /* Spinners */,
+				1F0ADD8A19BF8FDD0004BF8C /* Spinners */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		1F44369019BF4E170065C568 /* Spinners */ = {
+		1F0ADD8A19BF8FDD0004BF8C /* Spinners */ = {
 			isa = PBXGroup;
 			children = (
-				1F44369119BF4E170065C568 /* CDKActivityIndicatorView.h */,
-				1F44369219BF4E170065C568 /* CDKActivityIndicatorView.m */,
+				1F0ADD8B19BF8FDD0004BF8C /* CDKActivityIndicatorView.h */,
+				1F0ADD8C19BF8FDD0004BF8C /* CDKActivityIndicatorView.m */,
 			);
 			path = Spinners;
 			sourceTree = "<group>";
 		};
-		1F44369319BF4E170065C568 /* Utilities */ = {
+		1F0ADD8D19BF8FDD0004BF8C /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				1F44369419BF4E170065C568 /* Base64.h */,
-				1F44369519BF4E170065C568 /* Base64.m */,
-				1F44369619BF4E170065C568 /* NSDataAdditions.h */,
-				1F44369719BF4E170065C568 /* NSDataAdditions.m */,
-				1F44369819BF4E170065C568 /* NSDate+Additions.h */,
-				1F44369919BF4E170065C568 /* NSDate+Additions.m */,
-				1F44369A19BF4E170065C568 /* NSError+Additions.h */,
-				1F44369B19BF4E170065C568 /* NSError+Additions.m */,
-				1F44369C19BF4E170065C568 /* PropertyUtilities.h */,
-				1F44369D19BF4E170065C568 /* PropertyUtilities.m */,
+				1F0ADD8E19BF8FDD0004BF8C /* Base64.h */,
+				1F0ADD8F19BF8FDD0004BF8C /* Base64.m */,
+				1F0ADD9019BF8FDD0004BF8C /* NSDataAdditions.h */,
+				1F0ADD9119BF8FDD0004BF8C /* NSDataAdditions.m */,
+				1F0ADD9219BF8FDD0004BF8C /* NSDate+Additions.h */,
+				1F0ADD9319BF8FDD0004BF8C /* NSDate+Additions.m */,
+				1F0ADD9419BF8FDD0004BF8C /* NSError+Additions.h */,
+				1F0ADD9519BF8FDD0004BF8C /* NSError+Additions.m */,
+				1F0ADD9619BF8FDD0004BF8C /* PropertyUtilities.h */,
+				1F0ADD9719BF8FDD0004BF8C /* PropertyUtilities.m */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1F0ADDC919BF8FE80004BF8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F0ADD9819BF8FDD0004BF8C /* CocoaDeveloperKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FE7F8DD19BF8F7800636640 = {
+			isa = PBXGroup;
+			children = (
+				1F0ADD5B19BF8FDD0004BF8C /* CocoaDeveloperKit */,
+				1FE7F8FF19BF8F7800636640 /* CocoaDeveloperKitTests */,
+				1FE7F8E819BF8F7800636640 /* Frameworks */,
+				1FE7F8E719BF8F7800636640 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FE7F8E719BF8F7800636640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FE7F8E619BF8F7800636640 /* libCocoaDeveloperKit.a */,
+				1FE7F8F619BF8F7800636640 /* CocoaDeveloperKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FE7F8E819BF8F7800636640 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FE7F8E919BF8F7800636640 /* Foundation.framework */,
+				1FE7F8F719BF8F7800636640 /* XCTest.framework */,
+				1FE7F8FA19BF8F7800636640 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FE7F8FF19BF8F7800636640 /* CocoaDeveloperKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FE7F90519BF8F7800636640 /* CocoaDeveloperKitTests.m */,
+				1FE7F90019BF8F7800636640 /* Supporting Files */,
+			);
+			path = CocoaDeveloperKitTests;
+			sourceTree = "<group>";
+		};
+		1FE7F90019BF8F7800636640 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FE7F90119BF8F7800636640 /* CocoaDeveloperKitTests-Info.plist */,
+				1FE7F90219BF8F7800636640 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1F44350919BF4D090065C568 /* Headers */ = {
+		1F0ADDCD19BF90190004BF8C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F4436BC19BF4E170065C568 /* CDKLoggerScreenView.h in Headers */,
-				1F4436A119BF4E170065C568 /* CDKThreadContextRef.h in Headers */,
-				1F4436DB19BF4E170065C568 /* NSError+Additions.h in Headers */,
-				1F4436C519BF4E170065C568 /* CDKNetworkGlobals.h in Headers */,
-				1F4436A719BF4E170065C568 /* CDKCoreDataOperation.h in Headers */,
-				1F4436BF19BF4E170065C568 /* NSURL+CDKNetwork.h in Headers */,
-				1F4436CC19BF4E170065C568 /* CDKNetworkResponse.h in Headers */,
-				1F4436AD19BF4E170065C568 /* CDKObjectMapping.h in Headers */,
-				1F4436A419BF4E170065C568 /* CDKCoreDataManager.h in Headers */,
-				1F4436C619BF4E170065C568 /* CDKNetworkHeader.h in Headers */,
-				1F4436E219BF4E400065C568 /* CDKLogger.h in Headers */,
-				1F4436CF19BF4E170065C568 /* CDKActivityIndicatorView.h in Headers */,
-				1F4436D219BF4E170065C568 /* Base64.h in Headers */,
-				1F4436B319BF4E170065C568 /* CDKObjectMappingRelationship.h in Headers */,
-				1F44369E19BF4E170065C568 /* CDKBaseManagedObject.h in Headers */,
-				1F4436B019BF4E170065C568 /* CDKObjectMappingAttribute.h in Headers */,
-				1F4436AA19BF4E170065C568 /* CDKCoreDataUtilities.h in Headers */,
-				1F4436C219BF4E170065C568 /* CDKNetworkConnection.h in Headers */,
-				1F4436DE19BF4E170065C568 /* PropertyUtilities.h in Headers */,
-				1F4436D819BF4E170065C568 /* NSDate+Additions.h in Headers */,
-				1F4436C919BF4E170065C568 /* CDKNetworkParameter.h in Headers */,
-				1F4436D519BF4E170065C568 /* NSDataAdditions.h in Headers */,
-				1F4436B919BF4E170065C568 /* CDKLoggerEvent.h in Headers */,
-				1F44351219BF4D090065C568 /* CocoaDeveloperKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F7E666C19BF4EA7006227F4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1FFA41F419BF56F700E29337 /* CocoaDeveloperKit.h in Headers */,
-				1FFA41F519BF56F700E29337 /* CDKBaseManagedObject.h in Headers */,
-				1FFA41F619BF56F700E29337 /* CDKThreadContextRef.h in Headers */,
-				1FFA41F719BF56F700E29337 /* CDKCoreDataManager.h in Headers */,
-				1FFA41F819BF56F700E29337 /* CDKCoreDataOperation.h in Headers */,
-				1FFA41F919BF56F700E29337 /* CDKCoreDataUtilities.h in Headers */,
-				1FFA41FA19BF56F700E29337 /* CDKObjectMapping.h in Headers */,
-				1FFA41FB19BF56F700E29337 /* CDKObjectMappingAttribute.h in Headers */,
-				1FFA41FC19BF56F700E29337 /* CDKObjectMappingRelationship.h in Headers */,
-				1FFA41FD19BF56F700E29337 /* CDKLogger.h in Headers */,
-				1FFA41FE19BF56F700E29337 /* CDKLoggerEvent.h in Headers */,
-				1FFA41FF19BF56F700E29337 /* CDKLoggerScreenView.h in Headers */,
-				1FFA420019BF56F700E29337 /* NSURL+CDKNetwork.h in Headers */,
-				1FFA420119BF56F700E29337 /* CDKNetworkConnection.h in Headers */,
-				1FFA420219BF56F700E29337 /* CDKNetworkGlobals.h in Headers */,
-				1FFA420319BF56F700E29337 /* CDKNetworkHeader.h in Headers */,
-				1FFA420419BF56F700E29337 /* CDKNetworkParameter.h in Headers */,
-				1FFA420519BF56F700E29337 /* CDKNetworkResponse.h in Headers */,
-				1FFA420619BF56F800E29337 /* CDKActivityIndicatorView.h in Headers */,
-				1FFA420719BF56F800E29337 /* Base64.h in Headers */,
-				1FFA420819BF56F800E29337 /* NSDataAdditions.h in Headers */,
-				1FFA420919BF56F800E29337 /* NSDate+Additions.h in Headers */,
-				1FFA420A19BF56F800E29337 /* NSError+Additions.h in Headers */,
-				1FFA420B19BF56F800E29337 /* PropertyUtilities.h in Headers */,
+				1F0ADDCE19BF90370004BF8C /* CocoaDeveloperKit.h in Headers */,
+				1F0ADDCF19BF90370004BF8C /* CDKBaseManagedObject.h in Headers */,
+				1F0ADDD019BF90370004BF8C /* CDKCoreDataManager.h in Headers */,
+				1F0ADDD119BF90370004BF8C /* CDKThreadContextRef.h in Headers */,
+				1F0ADDD219BF90370004BF8C /* CDKCoreDataOperation.h in Headers */,
+				1F0ADDD319BF90370004BF8C /* CDKCoreDataUtilities.h in Headers */,
+				1F0ADDD419BF90370004BF8C /* CDKObjectMapping.h in Headers */,
+				1F0ADDD519BF90370004BF8C /* CDKObjectMappingAttribute.h in Headers */,
+				1F0ADDD619BF90370004BF8C /* CDKObjectMappingRelationship.h in Headers */,
+				1F0ADDD719BF90370004BF8C /* CDKLogger.h in Headers */,
+				1F0ADDD819BF90370004BF8C /* CDKLoggerEvent.h in Headers */,
+				1F0ADDD919BF90370004BF8C /* CDKLoggerScreenView.h in Headers */,
+				1F0ADDDA19BF90370004BF8C /* NSURL+CDKNetwork.h in Headers */,
+				1F0ADDDB19BF90370004BF8C /* CDKNetworkConnection.h in Headers */,
+				1F0ADDDC19BF90370004BF8C /* CDKNetworkGlobals.h in Headers */,
+				1F0ADDDD19BF90370004BF8C /* CDKNetworkHeader.h in Headers */,
+				1F0ADDDE19BF90370004BF8C /* CDKNetworkParameter.h in Headers */,
+				1F0ADDDF19BF90370004BF8C /* CDKNetworkResponse.h in Headers */,
+				1F0ADDE019BF90370004BF8C /* CDKActivityIndicatorView.h in Headers */,
+				1F0ADDE119BF90370004BF8C /* Base64.h in Headers */,
+				1F0ADDE219BF90370004BF8C /* NSDataAdditions.h in Headers */,
+				1F0ADDE319BF90370004BF8C /* NSDate+Additions.h in Headers */,
+				1F0ADDE419BF90370004BF8C /* NSError+Additions.h in Headers */,
+				1F0ADDE519BF90370004BF8C /* PropertyUtilities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1F44350B19BF4D090065C568 /* CocoaDeveloperKit */ = {
+		1FE7F8E519BF8F7800636640 /* CocoaDeveloperKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F44351F19BF4D090065C568 /* Build configuration list for PBXNativeTarget "CocoaDeveloperKit" */;
+			buildConfigurationList = 1FE7F90919BF8F7800636640 /* Build configuration list for PBXNativeTarget "CocoaDeveloperKit" */;
 			buildPhases = (
-				1F44350719BF4D090065C568 /* Sources */,
-				1F44350819BF4D090065C568 /* Frameworks */,
-				1F44350919BF4D090065C568 /* Headers */,
-				1F44350A19BF4D090065C568 /* Resources */,
+				1FE7F8E219BF8F7800636640 /* Sources */,
+				1FE7F8E319BF8F7800636640 /* Frameworks */,
+				1FE7F8E419BF8F7800636640 /* CopyFiles */,
+				1F0ADDCD19BF90190004BF8C /* Headers */,
 			);
 			buildRules = (
 			);
@@ -474,143 +468,148 @@
 			);
 			name = CocoaDeveloperKit;
 			productName = CocoaDeveloperKit;
-			productReference = 1F44350C19BF4D090065C568 /* CocoaDeveloperKit.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 1FE7F8E619BF8F7800636640 /* libCocoaDeveloperKit.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		1F44351619BF4D090065C568 /* CocoaDeveloperKitTests */ = {
+		1FE7F8F519BF8F7800636640 /* CocoaDeveloperKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F44352219BF4D090065C568 /* Build configuration list for PBXNativeTarget "CocoaDeveloperKitTests" */;
+			buildConfigurationList = 1FE7F90C19BF8F7800636640 /* Build configuration list for PBXNativeTarget "CocoaDeveloperKitTests" */;
 			buildPhases = (
-				1F44351319BF4D090065C568 /* Sources */,
-				1F44351419BF4D090065C568 /* Frameworks */,
-				1F44351519BF4D090065C568 /* Resources */,
-				1F7E666C19BF4EA7006227F4 /* Headers */,
+				1FE7F8F219BF8F7800636640 /* Sources */,
+				1FE7F8F319BF8F7800636640 /* Frameworks */,
+				1FE7F8F419BF8F7800636640 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1FE7F8FD19BF8F7800636640 /* PBXTargetDependency */,
 			);
 			name = CocoaDeveloperKitTests;
 			productName = CocoaDeveloperKitTests;
-			productReference = 1F44351719BF4D090065C568 /* CocoaDeveloperKitTests.xctest */;
+			productReference = 1FE7F8F619BF8F7800636640 /* CocoaDeveloperKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1F44350319BF4D090065C568 /* Project object */ = {
+		1FE7F8DE19BF8F7800636640 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Mike Neill";
-				TargetAttributes = {
-					1F44350B19BF4D090065C568 = {
-						CreatedOnToolsVersion = 6.0;
-					};
-					1F44351619BF4D090065C568 = {
-						CreatedOnToolsVersion = 6.0;
-					};
-				};
 			};
-			buildConfigurationList = 1F44350619BF4D090065C568 /* Build configuration list for PBXProject "CocoaDeveloperKit" */;
+			buildConfigurationList = 1FE7F8E119BF8F7800636640 /* Build configuration list for PBXProject "CocoaDeveloperKit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 1F44350219BF4D090065C568;
-			productRefGroup = 1F44350D19BF4D090065C568 /* Products */;
+			mainGroup = 1FE7F8DD19BF8F7800636640;
+			productRefGroup = 1FE7F8E719BF8F7800636640 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F44350B19BF4D090065C568 /* CocoaDeveloperKit */,
-				1F44351619BF4D090065C568 /* CocoaDeveloperKitTests */,
+				1FE7F8E519BF8F7800636640 /* CocoaDeveloperKit */,
+				1FE7F8F519BF8F7800636640 /* CocoaDeveloperKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1F44350A19BF4D090065C568 /* Resources */ = {
+		1FE7F8F419BF8F7800636640 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F44351519BF4D090065C568 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				1FE7F90419BF8F7800636640 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1F44350719BF4D090065C568 /* Sources */ = {
+		1FE7F8E219BF8F7800636640 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F4436A519BF4E170065C568 /* CDKCoreDataManager.m in Sources */,
-				1F4436CA19BF4E170065C568 /* CDKNetworkParameter.m in Sources */,
-				1F4436C719BF4E170065C568 /* CDKNetworkHeader.m in Sources */,
-				1F4436C319BF4E170065C568 /* CDKNetworkConnection.m in Sources */,
-				1F44369F19BF4E170065C568 /* CDKBaseManagedObject.m in Sources */,
-				1F4436CD19BF4E170065C568 /* CDKNetworkResponse.m in Sources */,
-				1F4436B119BF4E170065C568 /* CDKObjectMappingAttribute.m in Sources */,
-				1F4436BA19BF4E170065C568 /* CDKLoggerEvent.m in Sources */,
-				1F4436B419BF4E170065C568 /* CDKObjectMappingRelationship.m in Sources */,
-				1F4436B719BF4E170065C568 /* CDKLogger.m in Sources */,
-				1F4436D919BF4E170065C568 /* NSDate+Additions.m in Sources */,
-				1F4436AB19BF4E170065C568 /* CDKCoreDataUtilities.m in Sources */,
-				1F4436DC19BF4E170065C568 /* NSError+Additions.m in Sources */,
-				1F4436D619BF4E170065C568 /* NSDataAdditions.m in Sources */,
-				1F4436C019BF4E170065C568 /* NSURL+CDKNetwork.m in Sources */,
-				1F4436BD19BF4E170065C568 /* CDKLoggerScreenView.m in Sources */,
-				1F4436AE19BF4E170065C568 /* CDKObjectMapping.m in Sources */,
-				1F4436A819BF4E170065C568 /* CDKCoreDataOperation.m in Sources */,
-				1F4436D019BF4E170065C568 /* CDKActivityIndicatorView.m in Sources */,
-				1F4436DF19BF4E170065C568 /* PropertyUtilities.m in Sources */,
-				1F4436D319BF4E170065C568 /* Base64.m in Sources */,
-				1F4436A219BF4E170065C568 /* CDKThreadContextRef.m in Sources */,
+				1F0ADDB119BF8FDD0004BF8C /* NSURL+CDKNetwork.m in Sources */,
+				1F0ADDA919BF8FDD0004BF8C /* CDKObjectMappingRelationship.m in Sources */,
+				1F0ADDA519BF8FDD0004BF8C /* CDKObjectMapping.m in Sources */,
+				1F0ADD9B19BF8FDD0004BF8C /* CDKBaseManagedObject.m in Sources */,
+				1F0ADDB319BF8FDD0004BF8C /* CDKNetworkConnection.m in Sources */,
+				1F0ADDAD19BF8FDD0004BF8C /* CDKLoggerEvent.m in Sources */,
+				1F0ADD9D19BF8FDD0004BF8C /* CDKCoreDataManager.m in Sources */,
+				1F0ADDAB19BF8FDD0004BF8C /* CDKLogger.m in Sources */,
+				1F0ADDB719BF8FDD0004BF8C /* CDKNetworkParameter.m in Sources */,
+				1F0ADDBB19BF8FDD0004BF8C /* CDKActivityIndicatorView.m in Sources */,
+				1F0ADDC119BF8FDD0004BF8C /* NSDate+Additions.m in Sources */,
+				1F0ADDA319BF8FDD0004BF8C /* CDKCoreDataUtilities.m in Sources */,
+				1F0ADDC319BF8FDD0004BF8C /* NSError+Additions.m in Sources */,
+				1F0ADDBF19BF8FDD0004BF8C /* NSDataAdditions.m in Sources */,
+				1F0ADDB919BF8FDD0004BF8C /* CDKNetworkResponse.m in Sources */,
+				1F0ADDAF19BF8FDD0004BF8C /* CDKLoggerScreenView.m in Sources */,
+				1F0ADDB519BF8FDD0004BF8C /* CDKNetworkHeader.m in Sources */,
+				1F0ADD9F19BF8FDD0004BF8C /* CDKThreadContextRef.m in Sources */,
+				1F0ADDA719BF8FDD0004BF8C /* CDKObjectMappingAttribute.m in Sources */,
+				1F0ADDC519BF8FDD0004BF8C /* PropertyUtilities.m in Sources */,
+				1F0ADDBD19BF8FDD0004BF8C /* Base64.m in Sources */,
+				1F0ADDA119BF8FDD0004BF8C /* CDKCoreDataOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F44351319BF4D090065C568 /* Sources */ = {
+		1FE7F8F219BF8F7800636640 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F4436CE19BF4E170065C568 /* CDKNetworkResponse.m in Sources */,
-				1F44351C19BF4D090065C568 /* CocoaDeveloperKitTests.m in Sources */,
-				1F4436AC19BF4E170065C568 /* CDKCoreDataUtilities.m in Sources */,
-				1F4436B219BF4E170065C568 /* CDKObjectMappingAttribute.m in Sources */,
-				1F4436C819BF4E170065C568 /* CDKNetworkHeader.m in Sources */,
-				1F4436A919BF4E170065C568 /* CDKCoreDataOperation.m in Sources */,
-				1F4436D719BF4E170065C568 /* NSDataAdditions.m in Sources */,
-				1F4436C119BF4E170065C568 /* NSURL+CDKNetwork.m in Sources */,
-				1F4436B519BF4E170065C568 /* CDKObjectMappingRelationship.m in Sources */,
-				1F4436BB19BF4E170065C568 /* CDKLoggerEvent.m in Sources */,
-				1F4436D419BF4E170065C568 /* Base64.m in Sources */,
-				1F4436DD19BF4E170065C568 /* NSError+Additions.m in Sources */,
-				1F4436CB19BF4E170065C568 /* CDKNetworkParameter.m in Sources */,
-				1F4436A319BF4E170065C568 /* CDKThreadContextRef.m in Sources */,
-				1F4436B819BF4E170065C568 /* CDKLogger.m in Sources */,
-				1F4436A619BF4E170065C568 /* CDKCoreDataManager.m in Sources */,
-				1F4436E019BF4E170065C568 /* PropertyUtilities.m in Sources */,
-				1F4436BE19BF4E170065C568 /* CDKLoggerScreenView.m in Sources */,
-				1F4436AF19BF4E170065C568 /* CDKObjectMapping.m in Sources */,
-				1F4436C419BF4E170065C568 /* CDKNetworkConnection.m in Sources */,
-				1F4436DA19BF4E170065C568 /* NSDate+Additions.m in Sources */,
-				1F4436A019BF4E170065C568 /* CDKBaseManagedObject.m in Sources */,
-				1F4436D119BF4E170065C568 /* CDKActivityIndicatorView.m in Sources */,
+				1F0ADDBA19BF8FDD0004BF8C /* CDKNetworkResponse.m in Sources */,
+				1F0ADDA219BF8FDD0004BF8C /* CDKCoreDataOperation.m in Sources */,
+				1F0ADDA019BF8FDD0004BF8C /* CDKThreadContextRef.m in Sources */,
+				1F0ADDA419BF8FDD0004BF8C /* CDKCoreDataUtilities.m in Sources */,
+				1F0ADDBC19BF8FDD0004BF8C /* CDKActivityIndicatorView.m in Sources */,
+				1F0ADDB419BF8FDD0004BF8C /* CDKNetworkConnection.m in Sources */,
+				1F0ADDC019BF8FDD0004BF8C /* NSDataAdditions.m in Sources */,
+				1F0ADDB619BF8FDD0004BF8C /* CDKNetworkHeader.m in Sources */,
+				1F0ADDA619BF8FDD0004BF8C /* CDKObjectMapping.m in Sources */,
+				1F0ADD9E19BF8FDD0004BF8C /* CDKCoreDataManager.m in Sources */,
+				1F0ADDBE19BF8FDD0004BF8C /* Base64.m in Sources */,
+				1F0ADDC419BF8FDD0004BF8C /* NSError+Additions.m in Sources */,
+				1F0ADDAE19BF8FDD0004BF8C /* CDKLoggerEvent.m in Sources */,
+				1F0ADD9C19BF8FDD0004BF8C /* CDKBaseManagedObject.m in Sources */,
+				1F0ADDAC19BF8FDD0004BF8C /* CDKLogger.m in Sources */,
+				1FE7F90619BF8F7800636640 /* CocoaDeveloperKitTests.m in Sources */,
+				1F0ADDC619BF8FDD0004BF8C /* PropertyUtilities.m in Sources */,
+				1F0ADDB019BF8FDD0004BF8C /* CDKLoggerScreenView.m in Sources */,
+				1F0ADDA819BF8FDD0004BF8C /* CDKObjectMappingAttribute.m in Sources */,
+				1F0ADDB819BF8FDD0004BF8C /* CDKNetworkParameter.m in Sources */,
+				1F0ADDC219BF8FDD0004BF8C /* NSDate+Additions.m in Sources */,
+				1F0ADDB219BF8FDD0004BF8C /* NSURL+CDKNetwork.m in Sources */,
+				1F0ADDAA19BF8FDD0004BF8C /* CDKObjectMappingRelationship.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		1FE7F8FD19BF8F7800636640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FE7F8E519BF8F7800636640 /* CocoaDeveloperKit */;
+			targetProxy = 1FE7F8FC19BF8F7800636640 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FE7F90219BF8F7800636640 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FE7F90319BF8F7800636640 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		1F44351D19BF4D090065C568 /* Debug */ = {
+		1FE7F90719BF8F7800636640 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -625,12 +624,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -645,17 +640,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		1F44351E19BF4D090065C568 /* Release */ = {
+		1FE7F90819BF8F7800636640 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -670,13 +661,9 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -684,107 +671,113 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		1F44352019BF4D090065C568 /* Debug */ = {
+		1FE7F90A19BF8F7800636640 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CocoaDeveloperKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				DSTROOT = /tmp/CocoaDeveloperKit.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)\"",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaDeveloperKit/CocoaDeveloperKit-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		1F44352119BF4D090065C568 /* Release */ = {
+		1FE7F90B19BF8F7800636640 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CocoaDeveloperKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				DSTROOT = /tmp/CocoaDeveloperKit.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)\"",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaDeveloperKit/CocoaDeveloperKit-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		1F44352319BF4D090065C568 /* Debug */ = {
+		1FE7F90D19BF8F7800636640 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaDeveloperKit/CocoaDeveloperKit-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = CocoaDeveloperKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				INFOPLIST_FILE = "CocoaDeveloperKitTests/CocoaDeveloperKitTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		1F44352419BF4D090065C568 /* Release */ = {
+		1FE7F90E19BF8F7800636640 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				INFOPLIST_FILE = CocoaDeveloperKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaDeveloperKit/CocoaDeveloperKit-Prefix.pch";
+				INFOPLIST_FILE = "CocoaDeveloperKitTests/CocoaDeveloperKitTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F44350619BF4D090065C568 /* Build configuration list for PBXProject "CocoaDeveloperKit" */ = {
+		1FE7F8E119BF8F7800636640 /* Build configuration list for PBXProject "CocoaDeveloperKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F44351D19BF4D090065C568 /* Debug */,
-				1F44351E19BF4D090065C568 /* Release */,
+				1FE7F90719BF8F7800636640 /* Debug */,
+				1FE7F90819BF8F7800636640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F44351F19BF4D090065C568 /* Build configuration list for PBXNativeTarget "CocoaDeveloperKit" */ = {
+		1FE7F90919BF8F7800636640 /* Build configuration list for PBXNativeTarget "CocoaDeveloperKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F44352019BF4D090065C568 /* Debug */,
-				1F44352119BF4D090065C568 /* Release */,
+				1FE7F90A19BF8F7800636640 /* Debug */,
+				1FE7F90B19BF8F7800636640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F44352219BF4D090065C568 /* Build configuration list for PBXNativeTarget "CocoaDeveloperKitTests" */ = {
+		1FE7F90C19BF8F7800636640 /* Build configuration list for PBXNativeTarget "CocoaDeveloperKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F44352319BF4D090065C568 /* Debug */,
-				1F44352419BF4D090065C568 /* Release */,
+				1FE7F90D19BF8F7800636640 /* Debug */,
+				1FE7F90E19BF8F7800636640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1F44350319BF4D090065C568 /* Project object */;
+	rootObject = 1FE7F8DE19BF8F7800636640 /* Project object */;
 }

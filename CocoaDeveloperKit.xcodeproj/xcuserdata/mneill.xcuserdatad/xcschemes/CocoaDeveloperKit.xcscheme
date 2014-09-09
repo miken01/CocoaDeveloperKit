@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0600"
+   LastUpgradeVersion = "0510"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1F44350B19BF4D090065C568"
-               BuildableName = "CocoaDeveloperKit.framework"
+               BlueprintIdentifier = "1FE7F8E519BF8F7800636640"
+               BuildableName = "libCocoaDeveloperKit.a"
                BlueprintName = "CocoaDeveloperKit"
                ReferencedContainer = "container:CocoaDeveloperKit.xcodeproj">
             </BuildableReference>
@@ -28,26 +28,27 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1FE7F8F519BF8F7800636640"
+               BuildableName = "CocoaDeveloperKitTests.xctest"
+               BlueprintName = "CocoaDeveloperKitTests"
+               ReferencedContainer = "container:CocoaDeveloperKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
-      selectedDebuggerIdentifier = ""
-      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1F44350B19BF4D090065C568"
-            BuildableName = "CocoaDeveloperKit.framework"
-            BlueprintName = "CocoaDeveloperKit"
-            ReferencedContainer = "container:CocoaDeveloperKit.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -57,15 +58,6 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1F44350B19BF4D090065C568"
-            BuildableName = "CocoaDeveloperKit.framework"
-            BlueprintName = "CocoaDeveloperKit"
-            ReferencedContainer = "container:CocoaDeveloperKit.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

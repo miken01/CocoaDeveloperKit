@@ -20,7 +20,7 @@
     {
         if (p.key != nil && p.value != nil)
         {
-            if (![mUrlStr containsString:@"?"])
+            if ([mUrlStr rangeOfString:@"?"].location == NSNotFound)
                 [mUrlStr appendString:@"?"];
             else
                 [mUrlStr appendString:@"&"];

@@ -6,16 +6,9 @@
 //  Copyright (c) 2014 Mike Neill. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
-//! Project version number for CocoaDeveloperKit.
-FOUNDATION_EXPORT double CocoaDeveloperKitVersionNumber;
-
-//! Project version string for CocoaDeveloperKit.
-FOUNDATION_EXPORT const unsigned char CocoaDeveloperKitVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <CocoaDeveloperKit/PublicHeader.h>
-
+#import <CoreData/CoreData.h>
 
 #import "CDKLogger.h"
 #import "CDKCoreDataManager.h"
