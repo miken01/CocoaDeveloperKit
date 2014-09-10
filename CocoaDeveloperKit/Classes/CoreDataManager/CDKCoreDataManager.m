@@ -578,7 +578,7 @@ static CDKCoreDataManager *sharedManager = nil;
                   objectClass:(__unsafe_unretained Class)managedObjectClass
              completion:(CDKCoreDataManagerJSONSaveCompletion)completion
 {
-    [self saveJsonObjects:jsonDict CDKObjectMapping:objectMapping objectClass:managedObjectClass managedObjectContext:nil saveContextOnComplete:YES completion:completion];
+    [self saveJsonObjects:jsonDict objectMapping:objectMapping objectClass:managedObjectClass managedObjectContext:nil saveContextOnComplete:YES completion:completion];
 }
 
 /*
