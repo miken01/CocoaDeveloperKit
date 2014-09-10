@@ -562,9 +562,9 @@ static CDKCoreDataManager *sharedManager = nil;
 }
 
 /*
- * Method Name: saveJsonObjects:CDKObjectMapping:objectClass:completion:
+ * Method Name: saveJsonObjects:objectMapping:objectClass:completion:
  * @jsonObjects: A dictionary that contains JSON data
- * @CDKObjectMapping: A CDKObjectMapping class setup with the mapping for the object class that is expected to be in the JSON dictionaries
+ * @objectMapping: A CDKObjectMapping class setup with the mapping for the object class that is expected to be in the JSON dictionaries
  *                 This should be the mapping for the base objects.
  *                 If the JSON has sub objects, then the relationship mapping will be used providing it was setup.
  * @managedObjectClass: The class for the object that is expected to be in the JSON dictionaries
@@ -574,17 +574,17 @@ static CDKCoreDataManager *sharedManager = nil;
  * Note: This method does not require that the saveManagedObjectContext to be called as it already implements this method interally
  */
 - (void)saveJsonObjects:(NSDictionary *)jsonDict
-          CDKObjectMapping:(CDKObjectMapping *)CDKObjectMapping
+          objectMapping:(CDKObjectMapping *)objectMapping
                   objectClass:(__unsafe_unretained Class)managedObjectClass
              completion:(CDKCoreDataManagerJSONSaveCompletion)completion
 {
-    [self saveJsonObjects:jsonDict CDKObjectMapping:CDKObjectMapping objectClass:managedObjectClass managedObjectContext:nil saveContextOnComplete:YES completion:completion];
+    [self saveJsonObjects:jsonDict CDKObjectMapping:objectMapping objectClass:managedObjectClass managedObjectContext:nil saveContextOnComplete:YES completion:completion];
 }
 
 /*
- * Method Name: saveJsonObjects:CDKObjectMapping:objectClass:completion:
+ * Method Name: saveJsonObjects:objectMapping:objectClass:completion:
  * @jsonObjects: A dictionary that contains JSON data
- * @CDKObjectMapping: A CDKObjectMapping class setup with the mapping for the object class that is expected to be in the JSON dictionaries
+ * @objectMapping: A CDKObjectMapping class setup with the mapping for the object class that is expected to be in the JSON dictionaries
  *                 This should be the mapping for the base objects.
  *                 If the JSON has sub objects, then the relationship mapping will be used providing it was setup.
  * @managedObjectClass: The class for the object that is expected to be in the JSON dictionaries
@@ -595,7 +595,7 @@ static CDKCoreDataManager *sharedManager = nil;
  * Note: This method does not require that the saveManagedObjectContext to be called as it already implements this method interally
  */
 - (void)saveJsonObjects:(NSDictionary *)jsonDict
-          CDKObjectMapping:(CDKObjectMapping *)CDKObjectMapping
+          objectMapping:(CDKObjectMapping *)objectMapping
                   objectClass:(__unsafe_unretained Class)managedObjectClass
    managedObjectContext:(NSManagedObjectContext *)managedObjectContext
   saveContextOnComplete:(BOOL)saveContextOnComplete
@@ -614,7 +614,7 @@ static CDKCoreDataManager *sharedManager = nil;
     // create a core data operation and add it to the queue
     CoreDataOperation *operation = [[CoreDataOperation alloc] init];
     operation.json = jsonDict;
-    operation.mapping = CDKObjectMapping;
+    operation.mapping = objectMapping;
     operation.objectClass = managedObjectClass;
     operation.mainContext = mainManagedObjectContext;
     operation.workerContext = managedObjectContext;

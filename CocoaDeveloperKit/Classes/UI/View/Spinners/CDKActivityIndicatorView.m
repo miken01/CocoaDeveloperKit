@@ -1,6 +1,6 @@
 //
 //  CDKActivityIndicatorView.m
-//  CSGLibrary
+//  CDKLibrary
 //
 //  Created by Mike Neill on 8/21/14.
 //  Copyright (c) 2014 Cardinal Solutions. All rights reserved.
@@ -14,7 +14,7 @@
     BOOL viewDrawn;
 }
 
-- (id)initWithSize:(CSGActivityIndicatorSize)indicatorSize inView:(UIView *)inView
+- (id)initWithSize:(CDKActivityIndicatorSize)indicatorSize inView:(UIView *)inView
 {
     if (self = [super initWithFrame:CGRectZero])
     {
@@ -133,7 +133,7 @@
     
     switch (_indicatorSize)
     {
-        case CSGActivityIndicatorSizeLarge:
+        case CDKActivityIndicatorSizeLarge:
         {
             indicatorView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
         }
@@ -153,7 +153,7 @@
 {
     switch (_indicatorSize)
     {
-        case CSGActivityIndicatorSizeLarge:
+        case CDKActivityIndicatorSizeLarge:
         {
             return CGSizeMake(37, 37);
         }

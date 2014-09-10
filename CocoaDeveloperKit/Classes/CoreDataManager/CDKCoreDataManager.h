@@ -195,7 +195,7 @@ typedef void (^CDKCoreDataManagerJSONSaveCompletion)(NSArray *objects, NSError *
  * Description: This method iterates through all JSON dictionaries in the NSArray and attempts to use the CDKObjectMapping object to save the data to the Core Data database
  * Note: This method does not require that the saveManagedObjectContext to be called as it already implements this method interally
  */
-- (void)saveJsonObjects:(NSDictionary *)jsonDict CDKObjectMapping:(CDKObjectMapping *)CDKObjectMapping objectClass:(__unsafe_unretained Class)managedObjectClass completion:(CDKCoreDataManagerJSONSaveCompletion)completion;
+- (void)saveJsonObjects:(NSDictionary *)jsonDict objectMapping:(CDKObjectMapping *)objectMapping objectClass:(__unsafe_unretained Class)managedObjectClass completion:(CDKCoreDataManagerJSONSaveCompletion)completion;
 
 /*
  * Method Name: saveJsonObjects:CDKObjectMapping:objectClass:completion:
@@ -210,6 +210,6 @@ typedef void (^CDKCoreDataManagerJSONSaveCompletion)(NSArray *objects, NSError *
  * Description: This method iterates through all JSON dictionaries in the NSArray and attempts to use the CDKObjectMapping object to save the data to the Core Data database
  * Note: This method does not require that the saveManagedObjectContext to be called as it already implements this method interally
  */
-- (void)saveJsonObjects:(NSDictionary *)jsonDict CDKObjectMapping:(CDKObjectMapping *)CDKObjectMapping objectClass:(__unsafe_unretained Class)managedObjectClass managedObjectContext:(NSManagedObjectContext *)managedObjectContext saveContextOnComplete:(BOOL)saveContextOnComplete completion:(CDKCoreDataManagerJSONSaveCompletion)completion;
+- (void)saveJsonObjects:(NSDictionary *)jsonDict objectMapping:(CDKObjectMapping *)objectMapping objectClass:(__unsafe_unretained Class)managedObjectClass managedObjectContext:(NSManagedObjectContext *)managedObjectContext saveContextOnComplete:(BOOL)saveContextOnComplete completion:(CDKCoreDataManagerJSONSaveCompletion)completion;
 
 @end
