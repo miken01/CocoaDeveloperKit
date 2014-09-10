@@ -133,7 +133,7 @@
 {
     NSString *nClassName = [className copy];
     
-    if ([nClassName rangeOfString:@"?"].location == NSNotFound)
+    if ([nClassName rangeOfString:@"?"].location == NSNotFound && [nClassName rangeOfString:@"."].location != NSNotFound)
     {
         NSRange r = [nClassName rangeOfString:@"."];
         nClassName = [nClassName substringFromIndex:r.location + r.length];
