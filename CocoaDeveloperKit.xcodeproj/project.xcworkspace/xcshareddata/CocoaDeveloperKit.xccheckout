@@ -10,29 +10,29 @@
 	<string>CocoaDeveloperKit</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>FAB255C8-6A08-44BE-9844-AA3365FEADCA</key>
+		<key>95B9CC8B6756A9AF9EE4FE91FB513EA302D9BF34</key>
 		<string>https://github.com/miken01/CocoaDeveloperKit.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>CocoaDeveloperKit.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>FAB255C8-6A08-44BE-9844-AA3365FEADCA</key>
+		<key>95B9CC8B6756A9AF9EE4FE91FB513EA302D9BF34</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/miken01/CocoaDeveloperKit.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>FAB255C8-6A08-44BE-9844-AA3365FEADCA</string>
+	<string>95B9CC8B6756A9AF9EE4FE91FB513EA302D9BF34</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>FAB255C8-6A08-44BE-9844-AA3365FEADCA</string>
+			<string>95B9CC8B6756A9AF9EE4FE91FB513EA302D9BF34</string>
 			<key>IDESourceControlWCCName</key>
 			<string>CocoaDeveloperKit</string>
 		</dict>
