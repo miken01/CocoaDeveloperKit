@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CocoaDeveloperKit"
-  s.version      = "0.0.11"
+  s.version      = "0.0.12"
   s.summary      = "CocoaDeveloperKit is a collection of useful classes, categories and wrappers that make iOS development easier and more efficient."
   s.description  = <<-DESC
 'CocoaDeveloperKit' is a collection of useful classes, categories and wrappers that make iOS development easier and more efficient.
