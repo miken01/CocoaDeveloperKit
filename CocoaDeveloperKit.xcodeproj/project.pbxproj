@@ -82,6 +82,8 @@
 		1FE7F8FE19BF8F7800636640 /* libCocoaDeveloperKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE7F8E619BF8F7800636640 /* libCocoaDeveloperKit.a */; };
 		1FE7F90419BF8F7800636640 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FE7F90219BF8F7800636640 /* InfoPlist.strings */; };
 		1FE7F90619BF8F7800636640 /* CocoaDeveloperKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE7F90519BF8F7800636640 /* CocoaDeveloperKitTests.m */; };
+		F7C4E10919D2C35700E2FA2C /* CDKUITextField+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = F7C4E10719D2C35700E2FA2C /* CDKUITextField+Additions.h */; };
+		F7C4E10A19D2C35700E2FA2C /* CDKUITextField+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C4E10819D2C35700E2FA2C /* CDKUITextField+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -162,6 +164,8 @@
 		1FE7F90119BF8F7800636640 /* CocoaDeveloperKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaDeveloperKitTests-Info.plist"; sourceTree = "<group>"; };
 		1FE7F90319BF8F7800636640 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1FE7F90519BF8F7800636640 /* CocoaDeveloperKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaDeveloperKitTests.m; sourceTree = "<group>"; };
+		F7C4E10719D2C35700E2FA2C /* CDKUITextField+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CDKUITextField+Additions.h"; sourceTree = "<group>"; };
+		F7C4E10819D2C35700E2FA2C /* CDKUITextField+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CDKUITextField+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -349,6 +353,8 @@
 			children = (
 				1F0ADD8E19BF8FDD0004BF8C /* Base64.h */,
 				1F0ADD8F19BF8FDD0004BF8C /* Base64.m */,
+				F7C4E10719D2C35700E2FA2C /* CDKUITextField+Additions.h */,
+				F7C4E10819D2C35700E2FA2C /* CDKUITextField+Additions.m */,
 				1F0ADD9019BF8FDD0004BF8C /* NSDataAdditions.h */,
 				1F0ADD9119BF8FDD0004BF8C /* NSDataAdditions.m */,
 				1F0ADD9219BF8FDD0004BF8C /* NSDate+Additions.h */,
@@ -426,6 +432,7 @@
 				1F0ADDCE19BF90370004BF8C /* CocoaDeveloperKit.h in Headers */,
 				1F0ADDCF19BF90370004BF8C /* CDKBaseManagedObject.h in Headers */,
 				1F0ADDD019BF90370004BF8C /* CDKCoreDataManager.h in Headers */,
+				F7C4E10919D2C35700E2FA2C /* CDKUITextField+Additions.h in Headers */,
 				1F0ADDD119BF90370004BF8C /* CDKThreadContextRef.h in Headers */,
 				1F0ADDD219BF90370004BF8C /* CDKCoreDataOperation.h in Headers */,
 				1F0ADDD319BF90370004BF8C /* CDKCoreDataUtilities.h in Headers */,
@@ -547,6 +554,7 @@
 				1F0ADDC319BF8FDD0004BF8C /* NSError+Additions.m in Sources */,
 				1F0ADDBF19BF8FDD0004BF8C /* NSDataAdditions.m in Sources */,
 				1F0ADDB919BF8FDD0004BF8C /* CDKNetworkResponse.m in Sources */,
+				F7C4E10A19D2C35700E2FA2C /* CDKUITextField+Additions.m in Sources */,
 				1F0ADDAF19BF8FDD0004BF8C /* CDKLoggerScreenView.m in Sources */,
 				1F0ADDB519BF8FDD0004BF8C /* CDKNetworkHeader.m in Sources */,
 				1F0ADD9F19BF8FDD0004BF8C /* CDKThreadContextRef.m in Sources */,
