@@ -52,8 +52,18 @@
         return NO;
     }
     
+    if (textFieldType > UITextFieldTypeInt && [replacementString isEqualToString:@"."])
+    {
+        NSRange range = [self.text rangeOfString:@"."];
+        
+        if (range.location != NSNotFound)
+        {
+            return NO;
+        }
+    }
+    
     // setup new scanner to scan the string
-    NSScanner *scanner = [NSScanner scannerWithString:replacementString];
+    NSScanner *scanner = [NSScanner scannerWithString:newString];
     
     // scan the string based on the type
     switch (textFieldType) {

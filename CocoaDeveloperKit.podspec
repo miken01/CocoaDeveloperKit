@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "Mike Neill" => "michael_neill@me.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/miken01/CocoaDeveloperKit.git", :tag => "0.0.11" }
+  s.source       = { :git => "https://github.com/miken01/CocoaDeveloperKit.git", :tag => "0.0.12" }
   s.public_header_files = "CocoaDeveloperKit/**/*.h"
   s.source_files = "CocoaDeveloperKit/**/*.{h,m}"
   s.requires_arc = true
