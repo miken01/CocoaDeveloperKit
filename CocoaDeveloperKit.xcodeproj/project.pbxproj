@@ -89,6 +89,8 @@
 		F74683F21A1A020E00641C3E /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD9319BF8FDD0004BF8C /* NSDate+Additions.m */; };
 		F74683F31A1A020E00641C3E /* NSError+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD9519BF8FDD0004BF8C /* NSError+Additions.m */; };
 		F74683F41A1A020E00641C3E /* PropertyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0ADD9719BF8FDD0004BF8C /* PropertyUtilities.m */; };
+		F75240CC1A1F3FAA001C82AB /* RelativeDateFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = F75240CA1A1F3FAA001C82AB /* RelativeDateFormat.h */; };
+		F75240CD1A1F3FAA001C82AB /* RelativeDateFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = F75240CB1A1F3FAA001C82AB /* RelativeDateFormat.m */; };
 		F7C4E10919D2C35700E2FA2C /* CDKUITextField+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = F7C4E10719D2C35700E2FA2C /* CDKUITextField+Additions.h */; };
 /* End PBXBuildFile section */
 
@@ -176,6 +178,8 @@
 		F746839B1A19FE3B00641C3E /* RNCryptManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptManager.m; sourceTree = "<group>"; };
 		F74683D61A19FFB800641C3E /* NSNumber+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Additions.h"; sourceTree = "<group>"; };
 		F74683D71A19FFB800641C3E /* NSNumber+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Additions.m"; sourceTree = "<group>"; };
+		F75240CA1A1F3FAA001C82AB /* RelativeDateFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelativeDateFormat.h; sourceTree = "<group>"; };
+		F75240CB1A1F3FAA001C82AB /* RelativeDateFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelativeDateFormat.m; sourceTree = "<group>"; };
 		F7C4E10719D2C35700E2FA2C /* CDKUITextField+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CDKUITextField+Additions.h"; sourceTree = "<group>"; };
 		F7C4E10819D2C35700E2FA2C /* CDKUITextField+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CDKUITextField+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -381,6 +385,8 @@
 				1F0ADD9519BF8FDD0004BF8C /* NSError+Additions.m */,
 				1F0ADD9619BF8FDD0004BF8C /* PropertyUtilities.h */,
 				1F0ADD9719BF8FDD0004BF8C /* PropertyUtilities.m */,
+				F75240CA1A1F3FAA001C82AB /* RelativeDateFormat.h */,
+				F75240CB1A1F3FAA001C82AB /* RelativeDateFormat.m */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -447,6 +453,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F75240CC1A1F3FAA001C82AB /* RelativeDateFormat.h in Headers */,
 				F74683D81A19FFB800641C3E /* NSNumber+Additions.h in Headers */,
 				F746839C1A19FE3B00641C3E /* RNCryptManager.h in Headers */,
 				F74683981A19FE1800641C3E /* NSString+Additions.h in Headers */,
@@ -576,6 +583,7 @@
 				F74683E81A1A020E00641C3E /* CDKNetworkHeader.m in Sources */,
 				F74683E91A1A020E00641C3E /* CDKNetworkParameter.m in Sources */,
 				F74683EA1A1A020E00641C3E /* CDKNetworkResponse.m in Sources */,
+				F75240CD1A1F3FAA001C82AB /* RelativeDateFormat.m in Sources */,
 				F74683EB1A1A020E00641C3E /* CDKActivityIndicatorView.m in Sources */,
 				F74683EC1A1A020E00641C3E /* NSNumber+Additions.m in Sources */,
 				F74683ED1A1A020E00641C3E /* RNCryptManager.m in Sources */,
