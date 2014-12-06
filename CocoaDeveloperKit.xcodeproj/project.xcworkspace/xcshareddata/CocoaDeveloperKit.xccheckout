@@ -14,7 +14,7 @@
 		<string>https://github.com/miken01/CocoaDeveloperKit.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>CocoaDeveloperKit.xcodeproj/project.xcworkspace</string>
+	<string>CocoaDeveloperKit.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>95B9CC8B6756A9AF9EE4FE91FB513EA302D9BF34</key>

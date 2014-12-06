@@ -45,7 +45,7 @@ const char *backgroundQueueName = "CDKLogger.BackgroundQueue";
 
 #pragma mark - Class Methods
 
-+ (void)startLoggerWithLogLevel:(enum CDKLoggerLogLevel)logLevel
++ (void)startLoggerWithLogLevel:(CDKLoggerLogLevel)logLevel
 {
     // init the logger and set the log level
     CDKLogger *logger = [CDKLogger sharedLogger];
