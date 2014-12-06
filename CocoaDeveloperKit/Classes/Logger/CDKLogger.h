@@ -39,11 +39,18 @@ typedef enum : NSUInteger {
 + (void)startLoggerWithLogLevel:(CDKLoggerLogLevel)logLevel;
 
 + (void)LogTrace:(NSString *)format, ...;
-+ (void)LogInfo:(NSString *)format, ...;
-+ (void)LogDebug:(NSString *)format, ...;
-+ (void)LogError:(NSString *)format, ...;
-+ (void)LogException:(NSException *)exception;
++ (void)LogTrace:(NSString *)format args:(va_list)args;
 
++ (void)LogInfo:(NSString *)format, ...;
++ (void)LogInfo:(NSString *)format args:(va_list)args;
+
++ (void)LogDebug:(NSString *)format, ...;
++ (void)LogDebug:(NSString *)format args:(va_list)args;
+
++ (void)LogError:(NSString *)format, ...;
++ (void)LogError:(NSString *)format args:(va_list)args;
+
++ (void)LogException:(NSException *)exception;
 + (void)LogScreenView:(CDKLoggerScreenView *)screenView;
 + (void)LogEvent:(CDKLoggerEvent *)event;
 

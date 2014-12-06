@@ -54,22 +54,38 @@ const char *backgroundQueueName = "CDKLogger.BackgroundQueue";
 
 + (void)LogTrace:(NSString *)format, ...
 {
+    va_list args;
+    va_start(args, format);
+    
+    // log string
+    [CDKLogger LogTrace:format args:args];
+    
+    va_end(args);
+}
+
++ (void)LogTrace:(NSString *)format args:(va_list)args
+{
     CDKLogger *logger = [CDKLogger sharedLogger];
     
     // if the log level is not set for this type of logging, then do nothing
     if (logger.logLevel !=  CDKLoggerLogLevelAll && logger.logLevel != CDKLoggerLogLevelTrace)
         return;
     
+    // log string
+    [logger log:[NSString stringWithFormat:@"Log Trace - %@", format] arguments:args];
+}
+
++ (void)LogInfo:(NSString *)format, ...
+{
     va_list args;
     va_start(args, format);
     
-    // log string
-    [logger log:[NSString stringWithFormat:@"Log Trace - %@", format] arguments:args];
+    [CDKLogger LogInfo:format args:args];
     
     va_end(args);
 }
 
-+ (void)LogInfo:(NSString *)format, ...
++ (void)LogInfo:(NSString *)format args:(va_list)args
 {
     CDKLogger *logger = [CDKLogger sharedLogger];
     
@@ -77,16 +93,21 @@ const char *backgroundQueueName = "CDKLogger.BackgroundQueue";
     if (logger.logLevel !=  CDKLoggerLogLevelAll && logger.logLevel != CDKLoggerLogLevelInfo)
         return;
     
+    // log string
+    [logger log:[NSString stringWithFormat:@"Log Info - %@", format] arguments:args];
+}
+
++ (void)LogDebug:(NSString *)format, ...
+{
     va_list args;
     va_start(args, format);
     
-    // log string
-    [logger log:[NSString stringWithFormat:@"Log Info - %@", format] arguments:args];
+    [CDKLogger LogDebug:format args:args];
     
     va_end(args);
 }
 
-+ (void)LogDebug:(NSString *)format, ...
++ (void)LogDebug:(NSString *)format args:(va_list)args
 {
     CDKLogger *logger = [CDKLogger sharedLogger];
     
@@ -94,16 +115,21 @@ const char *backgroundQueueName = "CDKLogger.BackgroundQueue";
     if (logger.logLevel !=  CDKLoggerLogLevelAll && logger.logLevel != CDKLoggerLogLevelDebug)
         return;
     
+    // log string
+    [logger log:[NSString stringWithFormat:@"Log Debug - %@", format] arguments:args];
+}
+
++ (void)LogError:(NSString *)format, ...
+{
     va_list args;
     va_start(args, format);
     
-    // log string
-    [logger log:[NSString stringWithFormat:@"Log Debug - %@", format] arguments:args];
+    [CDKLogger LogError:format args:args];
     
     va_end(args);
 }
 
-+ (void)LogError:(NSString *)format, ...
++ (void)LogError:(NSString *)format args:(va_list)args
 {
     CDKLogger *logger = [CDKLogger sharedLogger];
     
@@ -111,13 +137,8 @@ const char *backgroundQueueName = "CDKLogger.BackgroundQueue";
     if (logger.logLevel !=  CDKLoggerLogLevelAll && logger.logLevel != CDKLoggerLogLevelError)
         return;
     
-    va_list args;
-    va_start(args, format);
-    
     // log string
     [logger log:[NSString stringWithFormat:@"Log Error - %@", format] arguments:args];
-    
-    va_end(args);
 }
 
 + (void)LogException:(NSException *)exception
