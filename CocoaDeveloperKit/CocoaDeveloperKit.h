@@ -21,3 +21,4 @@
 #import "NSError+Additions.h"
 #import "PropertyUtilities.h"
 #import "CDKUITextField+Additions.h"
+#import "NSString+Additions.h"
