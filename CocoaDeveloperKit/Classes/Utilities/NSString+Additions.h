@@ -47,4 +47,13 @@
 - (NSString*) stringByReplacingOccurrencesOfRegex:(NSString*)regexString withString:(NSString*)replaceWithString;
 - (NSString *)stringByConvertingToMoneyFormat;
 
+/*
+ * Method Name: validateEmail:
+ * @emailAddress: An email address string
+ * @return: boolean
+ * Description: Validates an email address
+ */
+
++ (BOOL)validateEmail:(NSString *)emailAddress;
+
 @end
