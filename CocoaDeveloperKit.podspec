@@ -9,20 +9,23 @@
 Pod::Spec.new do |s|
 
   s.name                    = "CocoaDeveloperKit"
-  s.version                 = "0.0.18"
+  s.version                 = "0.0.19"
   s.summary                 = "CocoaDeveloperKit is a collection of useful classes, categories and wrappers that make iOS development easier and more efficient."
   s.description             = <<-DESC
 'CocoaDeveloperKit' is a collection of useful classes, categories and wrappers that make iOS development easier and more efficient.
+
+You will need to include the following line to your PodFile in order for this library to build correctly as it uses SQLCipher for an encrypted database.
+pod 'EncryptedCoreData', :git => 'https://github.com/project-imas/encrypted-core-data.git'
+
                    DESC
   s.homepage                = "https://github.com/miken01/CocoaDeveloperKit"
   s.license                 = "MIT"
   s.author                  = { "Mike Neill" => "michael_neill@me.com" }
   s.platform                = :ios, "7.0"
-  s.source                  = { :git => "https://github.com/miken01/CocoaDeveloperKit.git", :tag => "0.0.18" }
+  s.source                  = { :git => "https://github.com/miken01/CocoaDeveloperKit.git", :tag => "0.0.19" }
   s.public_header_files     = "CocoaDeveloperKit/**/*.h"
   s.source_files            = "CocoaDeveloperKit/**/*.{h,m}"
   s.requires_arc            = true
   s.ios.deployment_target   = '7.0'
   s.ios.frameworks          = 'SystemConfiguration', 'Security', 'CoreData', 'UIKit', 'Foundation'
-  s.dependency              'EncryptedCoreData', :git => 'https://github.com/project-imas/encrypted-core-data.git'
 end
