@@ -326,10 +326,12 @@ static CDKCoreDataManager *sharedManager = nil;
  * Method Name: persistentStoreCoordinator:
  * @projectName: The name of the project. This will be used when creating the name of the database file
  * @persistentStoreCoordinator: An NSPersistentStoreCoordinator to be used in place of the default NSPersistentStoreCoordinator
+ * @managedObjectModel: The NSManagedObjectModel used to create the NSPersistentStoreCoordinator
  * Description: You may wish to override the default NSPersistentStoreCoordinator with an EncryptedStore or something of that nature
  */
-- (void)initializeCoreDataWithProjectName:(NSString *)projectName persistentStoreCoordinator:(NSPersistentStoreCoordinator *)store
+- (void)initializeCoreDataWithProjectName:(NSString *)projectName persistentStoreCoordinator:(NSPersistentStoreCoordinator *)store managedObjectModel:(NSManagedObjectModel *)model
 {
+    managedObjectModel = model;
     persistentStoreCoordinator = store;
     [self initializeCoreDataWithProjectName:projectName];
 }

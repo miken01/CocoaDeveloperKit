@@ -44,9 +44,10 @@ typedef void (^CDKCoreDataManagerJSONSaveCompletion)(NSArray *objects, NSError *
  * Method Name: persistentStoreCoordinator:
  * @projectName: The name of the project. This will be used when creating the name of the database file
  * @persistentStoreCoordinator: An NSPersistentStoreCoordinator to be used in place of the default NSPersistentStoreCoordinator
+ * @managedObjectModel: The NSManagedObjectModel used to create the NSPersistentStoreCoordinator
  * Description: You may wish to override the default NSPersistentStoreCoordinator with an EncryptedStore or something of that nature
  */
-- (void)initializeCoreDataWithProjectName:(NSString *)projectName persistentStoreCoordinator:(NSPersistentStoreCoordinator *)persistentStoreCoordinator;
+- (void)initializeCoreDataWithProjectName:(NSString *)projectName persistentStoreCoordinator:(NSPersistentStoreCoordinator *)persistentStoreCoordinator managedObjectModel:(NSManagedObjectModel *)managedObjectModel;
 
 /*
  * Method Name: initializeCoreDataWithProjectName:
