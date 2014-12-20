@@ -26,7 +26,6 @@ typedef void (^CDKCoreDataManagerJSONSaveCompletion)(NSArray *objects, NSError *
 
 @property (nonatomic, assign) BOOL enableDebugMode;
 @property (nonatomic, copy) NSString *dateFormat;
-@property (nonatomic, copy) NSString *securityPasscode;
 
 + (id)sharedManager;
 
@@ -42,12 +41,12 @@ typedef void (^CDKCoreDataManagerJSONSaveCompletion)(NSArray *objects, NSError *
 - (void)initializeCoreDataWithProjectName:(NSString *)projectName;
 
 /*
- * Method Name: initializeCoreDataWithProjectName:securityPasscode:
+ * Method Name: persistentStoreCoordinator:
  * @projectName: The name of the project. This will be used when creating the name of the database file
- * @securityPasscode: A passcode for the database. If provided, then SQLCipher will be used.
- * Description: This method initializes Core Data and places the database file in the documents directory if it doesn't exist
+ * @persistentStoreCoordinator: An NSPersistentStoreCoordinator to be used in place of the default NSPersistentStoreCoordinator
+ * Description: You may wish to override the default NSPersistentStoreCoordinator with an EncryptedStore or something of that nature
  */
-- (void)initializeCoreDataWithProjectName:(NSString *)projectName securityPasscode:(NSString *)securityPasscode;
+- (void)initializeCoreDataWithProjectName:(NSString *)projectName persistentStoreCoordinator:(NSPersistentStoreCoordinator *)persistentStoreCoordinator;
 
 /*
  * Method Name: initializeCoreDataWithProjectName:
