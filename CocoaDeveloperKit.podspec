@@ -24,5 +24,5 @@ Pod::Spec.new do |s|
   s.requires_arc            = true
   s.ios.deployment_target   = '7.0'
   s.ios.frameworks          = 'SystemConfiguration', 'Security', 'CoreData', 'UIKit', 'Foundation'
-  s.dependency              = 'EncryptedCoreData', :git => 'https://github.com/project-imas/encrypted-core-data.git'
+  s.dependency              'EncryptedCoreData', :git => 'https://github.com/project-imas/encrypted-core-data.git'
 end
