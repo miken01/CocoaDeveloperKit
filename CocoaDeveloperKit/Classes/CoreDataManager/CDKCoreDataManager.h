@@ -26,6 +26,7 @@ typedef void (^CDKCoreDataManagerJSONSaveCompletion)(NSArray *objects, NSError *
 
 @property (nonatomic, assign) BOOL enableDebugMode;
 @property (nonatomic, copy) NSString *dateFormat;
+@property (nonatomic, copy) NSString *securityPasscode;
 
 + (id)sharedManager;
 
@@ -39,6 +40,14 @@ typedef void (^CDKCoreDataManagerJSONSaveCompletion)(NSArray *objects, NSError *
  * Description: This method initializes Core Data and places the database file in the documents directory if it doesn't exist
  */
 - (void)initializeCoreDataWithProjectName:(NSString *)projectName;
+
+/*
+ * Method Name: initializeCoreDataWithProjectName:securityPasscode:
+ * @projectName: The name of the project. This will be used when creating the name of the database file
+ * @securityPasscode: A passcode for the database. If provided, then SQLCipher will be used.
+ * Description: This method initializes Core Data and places the database file in the documents directory if it doesn't exist
+ */
+- (void)initializeCoreDataWithProjectName:(NSString *)projectName securityPasscode:(NSString *)securityPasscode;
 
 /*
  * Method Name: initializeCoreDataWithProjectName:

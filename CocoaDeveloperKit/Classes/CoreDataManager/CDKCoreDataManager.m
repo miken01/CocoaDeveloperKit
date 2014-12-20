@@ -15,6 +15,8 @@
 #import "CDKCoreDataUtilities.h"
 #import "CDKThreadContextRef.h"
 
+#import "EncryptedStore.h"
+
 @interface CDKCoreDataManager ()
 {
     NSManagedObjectModel *managedObjectModel;
@@ -109,15 +111,24 @@ static CDKCoreDataManager *sharedManager = nil;
     
     NSURL *storeURL = [[self applicationLibraryDirectory] URLByAppendingPathComponent:[NSString stringWithFormat:@"%@.sqlite", _projectName]];
     
-    NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:
-                             [NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption,
-                             [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil];
-    
-    NSError *error = nil;
-    persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
-    if (![persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:options error:&error])
+    if (_securityPasscode)
     {
-        [CDKLogger LogError:@"CDKCoreDataManager - Error: %@", error.localizedDescription];
+        NSDictionary *options = @{ EncryptedStorePassphraseKey: _securityPasscode, EncryptedStoreDatabaseLocation: storeURL };
+        
+        persistentStoreCoordinator = [EncryptedStore makeStoreWithOptions:options managedObjectModel:[self managedObjectModel]];
+    }
+    else
+    {
+        NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:
+                                 [NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption,
+                                 [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil];
+        
+        NSError *error = nil;
+        persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
+        if (![persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:options error:&error])
+        {
+            [CDKLogger LogError:@"CDKCoreDataManager - Error: %@", error.localizedDescription];
+        }
     }
     
     return persistentStoreCoordinator;
@@ -320,6 +331,18 @@ static CDKCoreDataManager *sharedManager = nil;
     managedObjectModel = [self managedObjectModel];
     persistentStoreCoordinator = [self persistentStoreCoordinator];
     mainManagedObjectContext = [self mainManagedObjectContext];
+}
+
+/*
+ * Method Name: initializeCoreDataWithProjectName:securityPasscode:
+ * @projectName: The name of the project. This will be used when creating the name of the database file
+ * @securityPasscode: A passcode for the database. If provided, then SQLCipher will be used.
+ * Description: This method initializes Core Data and places the database file in the documents directory if it doesn't exist
+ */
+- (void)initializeCoreDataWithProjectName:(NSString *)projectName securityPasscode:(NSString *)securityPasscode
+{
+    _securityPasscode = [securityPasscode copy];
+    [self initializeCoreDataWithProjectName:projectName];
 }
 
 /*
