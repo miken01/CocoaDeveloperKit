@@ -58,7 +58,7 @@
 - (NSString *)stringByRemovingNonASCIICharacters
 {
     NSError *error;
-    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"[^\x20-\x7E]" options:nil error:&error];
+    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"[^\x20-\x7E]" options:0 error:&error];
     NSString * modifiedText = [regex stringByReplacingMatchesInString:self options:0 range:NSMakeRange(0, [self length]) withTemplate:@""];
     
     return modifiedText;
@@ -69,11 +69,11 @@
  * @return: The number of ASCII characters in the string
  * Description: This method checks the string for ASCII characters and returns the number of matches
  */
-- (NSUInteger *)stringByCheckingForNonASCIICharacters
+- (NSUInteger)stringByCheckingForNonASCIICharacters
 {
     NSError *error;
-    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"[^\x20-\x7E]" options:nil error:&error];
-    NSUInteger * matches = [regex numberOfMatchesInString:self options:0 range:NSMakeRange(0, [self length])];
+    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"[^\x20-\x7E]" options:0 error:&error];
+    NSUInteger matches = [regex numberOfMatchesInString:self options:0 range:NSMakeRange(0, [self length])];
     
     return matches;
 }

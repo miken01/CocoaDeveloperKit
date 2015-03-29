@@ -35,7 +35,7 @@
  * @return: The number of ASCII characters in the string
  * Description: This method checks the string for ASCII characters and returns the number of matches
  */
--(NSUInteger *)stringByCheckingForNonASCIICharacters;
+- (NSUInteger)stringByCheckingForNonASCIICharacters;
 
 /*
  * Method Name: stringByApplyingPhoneFormat
