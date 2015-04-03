@@ -323,6 +323,17 @@ static CDKCoreDataManager *sharedManager = nil;
 }
 
 /*
+ * Method Name: initializeCoreDataWithProjectName:
+ * @projectName: The name of the project. This will be used when creating the name of the database file
+ * Description: This method initializes Core Data and places the database file in the documents directory if it doesn't exist
+ */
+- (void)initializeCoreDataWithProjectName:(NSString *)projectName swiftDomian:(NSString *)swiftDomain
+{
+    [self initializeCoreDataWithProjectName:projectName];
+    _swiftDomain = [swiftDomain copy];
+}
+
+/*
  * Method Name: persistentStoreCoordinator:
  * @projectName: The name of the project. This will be used when creating the name of the database file
  * @persistentStoreCoordinator: An NSPersistentStoreCoordinator to be used in place of the default NSPersistentStoreCoordinator

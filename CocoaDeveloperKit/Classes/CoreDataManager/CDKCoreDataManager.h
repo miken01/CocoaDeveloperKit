@@ -21,6 +21,7 @@ typedef void (^CDKCoreDataManagerJSONSaveCompletion)(NSArray *objects, NSError *
 #pragma mark - General Properties
 
 @property (nonatomic, strong) NSString *projectName;
+@property (nonatomic, strong) NSString *swiftDomain;
 
 #pragma mark - CoreData Related Properties
 
@@ -39,6 +40,13 @@ typedef void (^CDKCoreDataManagerJSONSaveCompletion)(NSArray *objects, NSError *
  * Description: This method initializes Core Data and places the database file in the documents directory if it doesn't exist
  */
 - (void)initializeCoreDataWithProjectName:(NSString *)projectName;
+
+/*
+ * Method Name: initializeCoreDataWithProjectName:
+ * @projectName: The name of the project. This will be used when creating the name of the database file
+ * Description: This method initializes Core Data and places the database file in the documents directory if it doesn't exist
+ */
+- (void)initializeCoreDataWithProjectName:(NSString *)projectName swiftDomian:(NSString *)swiftDomain;
 
 /*
  * Method Name: persistentStoreCoordinator:

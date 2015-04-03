@@ -388,13 +388,22 @@
         id relatedObject = [parentManagedObject valueForKey:relationship.relationship];
         
         // get/create the sub managed object
-        CDKObjectMapping *objectMapping = (CDKObjectMapping *)[NSClassFromString(relationship.objectClassName) getObjectMapping];
-        CDKBaseManagedObject *subManagedObject = [self getObjectForData:jsonDict CDKObjectMapping:objectMapping class:NSClassFromString(relationship.objectClassName)];
+        
+        // get object class name based on if there is a swift domain
+        NSString *objectClassName = nil;
+        
+        if ([[CDKCoreDataManager sharedManager] swiftDomain] != nil)
+            objectClassName = [NSString stringWithFormat:@"%@.%@", [[CDKCoreDataManager sharedManager] swiftDomain], relationship.objectClassName];
+        else
+            objectClassName = relationship.objectClassName;
+        
+        CDKObjectMapping *objectMapping = (CDKObjectMapping *)[NSClassFromString(objectClassName) getObjectMapping];
+        CDKBaseManagedObject *subManagedObject = [self getObjectForData:jsonDict CDKObjectMapping:objectMapping class:NSClassFromString(objectClassName)];
         
         // create the object if it doesn't exist
         if (!subManagedObject)
         {
-            subManagedObject = [NSEntityDescription insertNewObjectForEntityForName:relationship.objectClassName inManagedObjectContext:_workerContext];
+            subManagedObject = [NSEntityDescription insertNewObjectForEntityForName:objectClassName inManagedObjectContext:_workerContext];
         }
         
         // set the object's properties

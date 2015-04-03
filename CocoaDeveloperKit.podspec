@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name                    = "CocoaDeveloperKit"
-  s.version                 = "0.0.23"
+  s.version                 = "0.0.24"
   s.summary                 = "CocoaDeveloperKit is a collection of useful classes, categories and wrappers that make iOS development easier and more efficient."
   s.description             = <<-DESC
 'CocoaDeveloperKit' is a collection of useful classes, categories and wrappers that make iOS development easier and more efficient.
@@ -22,7 +22,7 @@ pod 'EncryptedCoreData', :git => 'https://github.com/project-imas/encrypted-core
   s.license                 = "MIT"
   s.author                  = { "Mike Neill" => "michael_neill@me.com" }
   s.platform                = :ios, "7.0"
-  s.source                  = { :git => "https://github.com/miken01/CocoaDeveloperKit.git", :tag => "0.0.23" }
+  s.source                  = { :git => "https://github.com/miken01/CocoaDeveloperKit.git", :tag => "0.0.24" }
   s.public_header_files     = "CocoaDeveloperKit/**/*.h"
   s.source_files            = "CocoaDeveloperKit/**/*.{h,m}"
   s.requires_arc            = true
